@@ -1,13 +1,13 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import React from 'react';
 // import { NavLink } from 'react-router-dom';
 import thhblack from '../1_Assets/thhblack.png';
 
 const Error = () => { 
-    useEffect(() =>{
-        document.getElementById('navigator').style.opacity = 0;
-        document.getElementById('navigator').style.display = 'none';
-    },[])
+    // useEffect(() =>{
+    //     document.getElementById('navigator').style.opacity = 0;
+    //     document.getElementById('navigator').style.display = 'none';
+    // },[])
     
 
     return (
