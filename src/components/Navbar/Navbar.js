@@ -9,29 +9,29 @@ const Navbar = () => {
                 <>
                     <li className="nav-item active">
                         <NavLink className="nav-link" to="/Invited" style={{fontWeight: '600', color: 'black'}}>
-                        Invite 
+                        About 
                         </NavLink>
                     </li>
                     <li className="nav-item" >
-                        <NavLink className="nav-link" to="/Accepted" style={{fontWeight: '600', color: 'black'}}>
-                        Accepted
+                        <NavLink className="nav-link" to="/Fire" style={{fontWeight: '600', color: 'black'}}>
+                        Fire
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/Rejected" style={{fontWeight: '600', color: 'black'}}>
-                        Rejected
-                        </NavLink>
-                    </li>
-
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to="/NoReply" style={{fontWeight: '600', color: 'black'}}>
-                        Unanswered
+                        <NavLink className="nav-link" to="/Blogs" style={{fontWeight: '600', color: 'black'}}>
+                        Blogs
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/Attended" style={{fontWeight: '600', color: 'black'}}>
-                        Attended
+                        <NavLink className="nav-link" to="/Clients" style={{fontWeight: '600', color: 'black'}}>
+                        Clients
+                        </NavLink>
+                    </li>
+
+                    <li className="nav-item">
+                        <NavLink className="nav-link" to="/Contact" style={{fontWeight: '600', color: 'black'}}>
+                        Contact
                         </NavLink>
                     </li>
                 </>
