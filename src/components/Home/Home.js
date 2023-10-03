@@ -1,6 +1,6 @@
 import React from 'react';
-import silalgreen from '../1_SILAL_ASSETS/silalgreen.png';
-import '../1_SILAL_ASSETS/Silal.css';
+import thhblack from '../1_Assets/thhblack.png';
+import '../1_Assets/thh.css';
 
 const Home = () => { 
 
@@ -9,11 +9,11 @@ const Home = () => {
             <div className="main">
                 <div className="form-items">
                     <div style={{justifyContent: 'center', alignItems: 'center'}}>
-                        <img id='head' style={{width: '150px'}} src={silalgreen} alt="Nissan Laptop Cover"/>
+                        <img id='head' style={{width: '150px'}} src={thhblack} alt="Nissan Laptop Cover"/>
                     </div>
                     
                     <h1 style={{fontWeight:'1000', fontSize: '55px', marginTop: '5px', color: '#00443F', overflow: 'hidden'}}>WELCOME</h1>
-                    <h4 style={{color: '#00443F', fontSize: '20px'}}> To The Silal RSVP Application </h4>
+                    <h4 style={{color: '#00443F', fontSize: '20px'}}> To The Hanging House Website </h4>
                 </div>
             </div>
         </>
