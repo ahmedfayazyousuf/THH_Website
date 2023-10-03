@@ -11,7 +11,7 @@ body, html{
     height: 100%
 }
 
-
+/* FONTING  */
 @font-face{
     font-family: myFont;
     src:url(PFSpekkVAR-Light-subset.otf);
@@ -47,6 +47,8 @@ h1{
     color:white;
 }
 
+
+/* SCROLLBAR STYLING  */
 /* width */
 ::-webkit-scrollbar {
     width: 4px;
