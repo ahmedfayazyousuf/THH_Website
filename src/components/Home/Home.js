@@ -1,23 +1,18 @@
-import React from 'react';
-import thhwhite from '../1_Assets/thhwhite.png';
+import {React} from 'react';
+
 import '../1_Assets/thh.css';
+import './home.css';
+import Hero from './Hero';
 
 const Home = () => { 
 
+
     return (
         <>
-            <div className="main">
-                <div className="form-items">
-                    <div style={{justifyContent: 'center', alignItems: 'center'}}>
-                        <img id='head' style={{width: '150px'}} src={thhwhite} alt="Nissan Laptop Cover"/>
-                    </div>
-                    
-                    <h1 style={{fontWeight:'1000', fontSize: '55px', marginTop: '5px', color: '#00F526', overflow: 'hidden'}}>WELCOME</h1>
-                    <h4 style={{fontSize: '20px'}}> To The Hanging House Website </h4>
-                </div>
-            </div>
+            <Hero />
 
-            <div class="container mx-auto px-4 sm:px-12 py-8" style={{backgroundColor: 'black'}}>
+            {/* // CLIENT CAROUSEL  */}
+            {/* <div class="container mx-auto px-4 sm:px-12 py-8" style={{backgroundColor: 'black'}}>
                 <div class="slider">
                     <div class="slide-track">
                     <div class="slide"><img alt='img' src="https://firebasestorage.googleapis.com/v0/b/thh-wix-assets.appspot.com/o/Client%20Logos%2FRow1%2Fneom.png?alt=media&token=12d3fb55-4773-42f9-ab94-22fdfcf165c6"/></div>
@@ -68,65 +63,9 @@ const Home = () => {
                     <div class="slide"><img alt='img' src="https://firebasestorage.googleapis.com/v0/b/thh-wix-assets.appspot.com/o/Client%20Logos%2FRow3%2Fkhalifauni.png?alt=media&token=14fffb66-716e-4b81-939b-33167554adb6"/></div>
                     </div>
                 </div>
-            </div>
-
-
-            <section id="contact" style={{borderRadius: '10px'}}>
-                <div class="contact-box" style={{borderRadius: '10px'}}>
-                    <div class="contact-links">
-                        <h2>CONTACT</h2>
-                        <div class="links">
-                            <div class="link">
-                                <a>
-                                    <img className='imgx' src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"/>
-                                </a>
-                            </div>
-
-                            <div class="link">
-                                <a>
-                                    <img className='imgx' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"/>
-                                </a>
-                            </div>
-
-                            <div class="link">
-                                <a>
-                                    <img className='imgx' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"/>
-                                </a>
-                            </div>
-
-                            <div class="link">
-                                <a>
-                                    <img className='imgx' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="contact-form-wrapper" style={{backgroundColor: 'transparent'}}>
-                    <form>
-                        <div class="form-item">
-                            <input type="text" name="sender" required/>
-                            <label>Name:</label>
-                        </div>
-                        
-                        <div class="form-item">
-                            <input type="text" name="email" required/>
-                            <label>Email:</label>
-                        </div>
-                        
-                        <div class="form-item">
-                            <textarea class="" name="message" required></textarea>
-                            <label>Message:</label>
-                        </div>
-                        <button class="submit-btn">Send</button>  
-                    </form>
-                    </div>
-                </div>
-                </section>
-
-
-
-        </>
+            </div> */}
+            </>
+        
     )
 }
 
