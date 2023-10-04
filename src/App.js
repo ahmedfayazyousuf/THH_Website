@@ -5,6 +5,7 @@ import "./App.css";
 import 'bootstrap';
 
 import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
 import Error from './components/Error/Error';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
+          <Route exact path="/Contact" element={<Contact />} />
       </Routes>
     </>
   )
