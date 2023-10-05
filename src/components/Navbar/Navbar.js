@@ -25,20 +25,20 @@ const Navbar = () => {
 
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/Clients" style={{fontWeight: '600'}}>
-                        Clients
+                            Clients
                         </NavLink>
                     </li>
 
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/Contact" style={{fontWeight: '600'}}>
-                        Contact
+                            Contact
                         </NavLink>
                     </li>
                 </>
             )
     }
     return (
-    <nav id='navigator' className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'transparent', padding: '0', margin: '0'}} >   
+    <nav id='navigator' className="navbar navbar-expand-lg navbar-dark" style={{width: '100%', backgroundColor: 'black', padding: '0', margin: '0', position: 'fixed', top: '0'}} >   
         <NavLink className="navbar-brand" to="/">
             <img style={{marginLeft:'15px', width: '70px', height: '40px', marginTop: '5px', marginBottom: '5px'}} src={thhwhite} alt="the hanging house logo"/>
         </NavLink>

@@ -1,10 +1,14 @@
 
-*, body {
-    overflow-x: hidden;
+body {
+    overflow-y: scroll;
     color: white;
 }
+* {
+  overflow: hidden;
+  color: white;
+}
 body, html{
-    height: 100%;
+    height: 100vh;
     background-color: black;
 }
 
@@ -12,6 +16,7 @@ body, html{
 @font-face{
     font-family: myFont;
     src:url(PFSpekkVAR-Light-subset.otf);
+    
 }
 
 *{
@@ -23,10 +28,41 @@ body, html{
     src:url(PFSpekkVAR-Black-subset.otf);
 }
 
-h1{
-    font-family: myFont;
+.special{
+    font-family: myFontHeader;
 }
 
+.buttonDefault{
+  margin-top: 20px;
+  background-color: #00F526;
+  border: 0.5px solid #00F526;
+  margin: 5px;
+  border-radius: 0;
+  color: black;
+  width: 90%;
+  height: 60px; 
+}
+
+.buttonDefault:hover{
+  background-color: white;
+  border: 0.5px solid white;
+  transition: 0.3s;
+}
+
+.inputDefault {
+  border: 0.5px solid #00F526;
+  margin: 5px;
+  border-radius: 0;
+  height: 60px;
+  margin-bottom: 10px;
+  color: white;
+  background: transparent;
+  width: 90%;
+}
+.inputDefault::selection{
+  border: 0.5px solid white ;
+  background: transparent;
+}
 
 .main{
     height:80vh;
@@ -66,10 +102,14 @@ h1{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: white
+    background: grey;
 }
 
-
+/* SELECTION TEXT HIGHLIGHT COLOR  */
+::selection {
+  background: #00f526;
+  color: black;
+}
 
 
 
