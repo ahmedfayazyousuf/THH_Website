@@ -6,7 +6,7 @@ const Blog = () => {
         <div style={{height: '100%', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <div style={{height: '100%', width: '100%', backgroundColor: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
 
-                <div style={{width: '100%', border: '0.5px solid transparent', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', position: 'fixed', top: '60px', background:'black'}}>
+                <div style={{width: '100%', border: '0.5px solid transparent', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', top: '60px', background:'black'}}>
                     <h1 className='special' style={{color: '#00f526', marginLeft: '18px'}}>BLOGS<span> / </span> <span>Title: Of The Article</span> </h1>
                 </div>
 

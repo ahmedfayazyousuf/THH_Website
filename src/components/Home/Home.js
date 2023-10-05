@@ -1,7 +1,6 @@
 import {React} from 'react';
-
 import '../1_Assets/thh.css';
-import './home.css';
+// import './home.css';
 import Hero from './Hero';
 
 const Home = () => { 
@@ -9,8 +8,7 @@ const Home = () => {
 
     return (
         <>
-            <Hero />
-
+        <Hero />
             {/* // CLIENT CAROUSEL  */}
             {/* <div class="container mx-auto px-4 sm:px-12 py-8" style={{backgroundColor: 'black'}}>
                 <div class="slider">
