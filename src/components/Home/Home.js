@@ -1,16 +1,82 @@
 import {React} from 'react';
 import '../1_Assets/thh.css';
+import { useEffect } from 'react';
 // import './home.css';
-import Hero from './Hero';
+// import Hero from './Hero';
 
 const Home = () => { 
 
 
+    useEffect(()=>{
+        document.getElementById('next').onclick = function(){
+            let lists = document.querySelectorAll('.item');
+            document.getElementById('slideHero').appendChild(lists[0]);
+        }
+        document.getElementById('prev').onclick = function(){
+            let lists = document.querySelectorAll('.item');
+            document.getElementById('slideHero').prepend(lists[lists.length - 1]);
+        }
+          
+    },[])
+
     return (
-        <>
-        <Hero />
-            {/* // CLIENT CAROUSEL  */}
-            {/* <div class="container mx-auto px-4 sm:px-12 py-8" style={{backgroundColor: 'black'}}>
+        <div style={{width: '100vw', height: '100%'}}>
+
+            <div id="slideHero">
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+
+
+
+
+                
+            <div class="container mx-auto px-4 sm:px-12 py-8" style={{backgroundColor: 'black'}}>
                 <div class="slider">
                     <div class="slide-track">
                     <div class="slide"><img alt='img' src="https://firebasestorage.googleapis.com/v0/b/thh-wix-assets.appspot.com/o/Client%20Logos%2FRow1%2Fneom.png?alt=media&token=12d3fb55-4773-42f9-ab94-22fdfcf165c6"/></div>
@@ -61,10 +127,18 @@ const Home = () => {
                     <div class="slide"><img alt='img' src="https://firebasestorage.googleapis.com/v0/b/thh-wix-assets.appspot.com/o/Client%20Logos%2FRow3%2Fkhalifauni.png?alt=media&token=14fffb66-716e-4b81-939b-33167554adb6"/></div>
                     </div>
                 </div>
-            </div> */}
-            </>
+            </div> 
+        </div>
+
+
         
     )
 }
 
 export default Home
+
+
+
+
+{/* // CLIENT CAROUSEL  */}
+             

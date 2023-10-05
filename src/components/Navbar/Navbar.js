@@ -21,12 +21,6 @@ function App() {
             <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`} aria-hidden="true"></i>
           </a>
         </div>
-
-        
-
-        {/* <div className="title-container">
-          <div className="circle"></div>
-        </div> */}
       </div>
 
       <div className={`overlay ${menuOpen ? 'open' : ''}`} id="overlay">
