@@ -15,7 +15,7 @@ export default function Hero(){
           
     },[])
     return(
-        <div style={{background: 'grey', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative'}}>
+        <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative'}}>
             <div id="slideHero">
                 <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">

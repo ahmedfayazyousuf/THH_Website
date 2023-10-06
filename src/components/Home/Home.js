@@ -57,7 +57,7 @@ const Home = () => {
             <div id="cursor">
                 <i id="cursor-icon" class="fa-solid fa-arrow-up-right"></i>
             </div>
-            <div style={{background: 'grey', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Hero />
             </div>
 
