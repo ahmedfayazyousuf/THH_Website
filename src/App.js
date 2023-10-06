@@ -5,7 +5,7 @@ import 'bootstrap';
 
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Contact from "./components/Contact/Contact";
+// import Contact from "./components/Contact/Contact";
 import Fire from "./components/Fire/Fire";
 import Blog from "./components/Blog/Blog";
 // import Project from "./components/Project/Project";
@@ -18,7 +18,7 @@ const App = () => {
       <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
-          <Route exact path="/Contact" element={<Contact />} />
+          {/* <Route exact path="/Contact" element={<Contact />} /> */}
           <Route exact path="/Fire" element={<Fire />} />
           <Route exact path="/Blogs" element={<Blog />} />
           {/* <Route exact path="/Project" element={<Project />} /> */}

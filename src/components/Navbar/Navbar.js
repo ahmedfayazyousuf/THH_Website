@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from "react-router-dom";
-import thhwhite from '../1_Assets/thhwhite.png';
+// import thhwhite from '../1_Assets/thhwhite.png';
 import './Navbar.scss';
 // import $ from "jquery"
 import React, { useState } from 'react';
@@ -14,16 +14,17 @@ function App() {
   };
 
   return (
-    <div>
-      <div className={`container ${menuOpen ? 'full-menu' : ''}`}>
-        <div className="menu-container" onClick={toggleMenu} id="toggle">
-          <a href="#" className="menu">
-            <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`} aria-hidden="true"></i>
+    <div  style={{zIndex: '1000000000000000000001'}}>
+      <div className={`container ${menuOpen ? 'full-menu' : ''}`}  style={{zIndex: '1000000000000000000001'}}>
+        <div className="menu-container" onClick={toggleMenu} id="toggle"  style={{zIndex: '1000000000000000000001'}}>
+        {/* eslint-disable-next-line */}
+          <a href="#" className="menu"  style={{zIndex: '1000000000000000000001'}}>
+            <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`} aria-hidden="true"  style={{zIndex: '101'}}></i>
           </a>
         </div>
       </div>
 
-      <div className={`overlay ${menuOpen ? 'open' : ''}`} id="overlay">
+      <div className={`overlay ${menuOpen ? 'open' : ''}`} id="overlay" style={{zIndex: '100', backgroundColor: 'black'}}>
         <nav className="overlay-menu">
           <ul>
             <li><NavLink className="nav-link" to="/" style={{fontWeight: '600'}}> Home</NavLink></li>
