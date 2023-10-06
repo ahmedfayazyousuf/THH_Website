@@ -26,8 +26,8 @@ export default function Hero(){
                 </div>
                 <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <div class="name">GEELY X AGMC – UAE Showroom Launch 2023</div>
+                        <div class="des">Navigating the Future of Mobility</div>
                         <button>See more</button>
                     </div>
                 </div>
