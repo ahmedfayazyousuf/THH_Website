@@ -9,44 +9,30 @@ const Home = () => {
 
     return (
         <div style={{width: '100vw', height: '100%'}}>
-
             <div style={{background: 'grey', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <h1 >HERO CAROUSEL</h1>
+                <h1>HERO CAROUSEL</h1>
             </div>
-
 
             <div style={{background: 'lightblue', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <h1 >About</h1>
             </div>
 
-
-
             <div style={{background: 'RED', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <FireSection />
             </div>
-
 
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <BlogGallery/>
             </div>
 
-
-            
-            {/* CLIENTS CAROUSEL */}
-
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <ClientsCarousel/>
             </div>
             
-
-
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <ContactForm/>
             </div>
         </div>
-
-
-        
     )
 }
 
