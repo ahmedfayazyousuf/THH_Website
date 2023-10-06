@@ -4,13 +4,14 @@ import ContactForm from './Components/Contact/Contact'
 import BlogGallery from './Components/BlogGallery/BlogGallery'
 import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
 import FireSection from './Components/FireSection/FireSection';
+import Hero from './Components/Hero/Hero';
 
 const Home = () => { 
 
     return (
         <div style={{width: '100vw', height: '100%'}}>
             <div style={{background: 'grey', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <h1>HERO CAROUSEL</h1>
+                <Hero />
             </div>
 
             <div style={{background: 'lightblue', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
