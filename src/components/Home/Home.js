@@ -3,6 +3,7 @@ import '../1_Assets/thh.css';
 import ContactForm from './Components/Contact/Contact'
 import BlogGallery from './Components/BlogGallery/BlogGallery'
 import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
+import FireSection from './Components/FireSection/FireSection';
 
 const Home = () => { 
 
@@ -21,7 +22,7 @@ const Home = () => {
 
 
             <div style={{background: 'RED', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <h1 >FIRE</h1>
+                <FireSection />
             </div>
 
 

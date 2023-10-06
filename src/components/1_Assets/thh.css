@@ -243,7 +243,7 @@ width: 80px;
 .image:hover{
   transform:scale(1.05);
   transition:0.5s;
-  cursor: grab;
+  cursor: grabshow ;
 }
 
 /* Responsive-ness for different screen-sizes */
@@ -269,4 +269,9 @@ width: 80px;
     --webkit-column-count: 1;
     --moz-column-count: 1;
   }
+}
+
+
+* {
+  cursor: none;
 }
