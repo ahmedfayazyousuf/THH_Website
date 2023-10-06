@@ -1,6 +1,7 @@
 import {React,useEffect} from 'react';
 import '../../../1_Assets/thh.css';
 import NissanXTrail from './../../../1_Assets/Images/Projects/NissanXTrail.jpg';
+import Geely from './../../../1_Assets/Images/Projects/Geely.jpg';
 
 export default function Hero(){
     useEffect(()=>{
@@ -24,7 +25,7 @@ export default function Hero(){
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
+                <div class="item" style={{backgroundImage: `url('${Geely}')`}}>
                     <div class="content">
                         <div class="name">GEELY X AGMC – UAE Showroom Launch 2023</div>
                         <div class="des">Navigating the Future of Mobility</div>
