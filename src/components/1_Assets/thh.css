@@ -405,3 +405,31 @@ width: 80px;
   opacity: 0;
   transition: opacity 400ms ease;
 }
+
+
+
+
+
+.tooltip {
+  position: relative;
+  /* display: inline-block; */
+  border-bottom: 1px dotted red;
+}
+
+.tooltip .tooltiptext {
+  /* visibility: hidden; */
+  width: 120px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
