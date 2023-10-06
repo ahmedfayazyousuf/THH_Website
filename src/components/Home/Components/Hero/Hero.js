@@ -1,5 +1,6 @@
 import {React,useEffect} from 'react';
-import '../../../1_Assets/thh.css'
+import '../../../1_Assets/thh.css';
+import NissanXTrail from './../../../1_Assets/Images/Projects/NissanXTrail.jpg';
 
 export default function Hero(){
     useEffect(()=>{
@@ -15,43 +16,43 @@ export default function Hero(){
     },[])
     return(
         <div style={{background: 'grey', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative'}}>
-        <div id="slideHero">
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+            <div id="slideHero">
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
+                    <div class="content">
+                        <div class="name">Nissan Al Rostamani – X-Trail Launch 2023</div>
+                        <div class="des">A Thrilling X-Pedition into the Unknown</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
                         <div class="name">LUNDEV</div>
                         <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
                         <div class="name">LUNDEV</div>
                         <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
                         <div class="name">LUNDEV</div>
                         <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
                         <div class="name">LUNDEV</div>
                         <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
                         <button>See more</button>
                     </div>
                 </div>
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
-                    <div class="content">
-                        <div class="name">LUNDEV</div>
-                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
-                        <button>See more</button>
-                    </div>
-                </div>
-                <div class="item" style={{backgroundImage: "url('https://get.wallhere.com/photo/landscape-sunset-hill-nature-sunrise-evening-morning-wilderness-dusk-New-Zealand-plateau-cloud-autumn-mountain-flower-dawn-grassland-meadow-wildflower-prairie-3840x2160-px-mountainous-landforms-geographical-feature-mountain-range-556254.jpg')"}}>
+                <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content">
                         <div class="name">LUNDEV</div>
                         <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
