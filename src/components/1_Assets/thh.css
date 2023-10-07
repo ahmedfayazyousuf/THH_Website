@@ -12,6 +12,34 @@ body, html{
     background-color: black;
 }
 
+.HideContactImg{
+  height:100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./Images/Contact/contactImg.jpg');
+  border: 0.5px solid #00F526;
+  border-right: none;
+}
+
+.contactForm{
+  height:100%;
+  width: 50%;
+  background-color: black;
+  border: 0.5px solid #00F526;
+  
+  padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .HideContactImg{
+    display: none;
+  }
+  .contactForm{
+    width: 100%;
+  }
+}
+
 /* FONTING  */
 @font-face{
     font-family: myFont;
@@ -34,18 +62,19 @@ body, html{
 
 .buttonDefault{
   margin-top: 20px;
-  background-color: #00F526;
+  background-color: white;
   border: 0.5px solid #00F526;
   margin: 5px;
   border-radius: 0;
   color: black;
-  width: 90%;
+  width: 98%;
   height: 60px; 
 }
 
 .buttonDefault:hover{
-  background-color: white;
+  background-color: transparent;
   border: 0.5px solid white;
+  color: white;
   transition: 0.3s;
 }
 
@@ -57,7 +86,7 @@ body, html{
   margin-bottom: 10px;
   color: white;
   background: transparent;
-  width: 90%;
+  width: 98%;
 }
 .inputDefault::selection{
   border: 0.5px solid white ;
@@ -399,61 +428,4 @@ width: 80px;
   background-color: #bac383;
 }
 
-#cursor {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 20px;
-  
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 10000;
-  
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 500ms ease;
-  
-  display: grid;
-  place-items: center;
-}
 
-#cursor:not([data-type=""]) > #cursor-icon {
-  opacity: 1;
-}
-
-#cursor-icon {
-  font-size: 6px;
-  line-height: 0px;
-  
-  opacity: 0;
-  transition: opacity 400ms ease;
-}
-
-
-
-
-
-.tooltip {
-  position: relative;
-  /* display: inline-block; */
-  border-bottom: 1px dotted red;
-}
-
-.tooltip .tooltiptext {
-  /* visibility: hidden; */
-  width: 120px;
-  background-color: red;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}

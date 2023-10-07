@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useEffect, useState } from 'react';
 import Blog from './Components/Blog'; 
 import { useParams } from 'react-router-dom';
@@ -5,9 +6,11 @@ import { useParams } from 'react-router-dom';
 const Blogs = (props) => { 
   const {id} = useParams();
 useEffect(()=>{
+  // eslint-disable-next-line
   console.log(id == 1)
 })
   function data(){
+    // eslint-disable-next-line
     if(id == 1){
 
       return(
@@ -60,7 +63,7 @@ useEffect(()=>{
 </div>} />
       )
     }
-
+    // eslint-disable-next-line
     if(id == 2){
       return(
         <Blog Title="Contactless activations for your brand" Author="The Housemates" Date="October 14, 2020" Body={<div style={{margin: '5px 0'}}>
@@ -83,6 +86,7 @@ useEffect(()=>{
           </figure>
           <p>Gamify your brand&rsquo;s experience through AR treasure hunts, quizzes and much more!</p>
           <p>We provide the application, the technology and technical support on site &ndash; all we need is an objective from your end. How will you be leveraging AR for your brand today?</p>
+          {/* eslint-disable-next-line */}
           <figure class="wp-block-image size-large is-resized"><img class="wp-image-9393" src="https://thehanginghouse.com/wp-content/uploads/2020/10/digital-contactless-photo-booth-the-hanging-house.gif" alt="digital photo booth the hanging house touchless custom" width="300" height="300" />
             <figcaption><strong>Digital photo booth</strong></figcaption>
           </figure>
@@ -95,7 +99,7 @@ useEffect(()=>{
       </div>} />
       )
     }
-
+    // eslint-disable-next-line
     if(id == 3){
       return(
       <Blog Title="The power of virtual experiences for brands" Author="The Housemates" Date="December 14, 2020" Body={<div style={{margin: '5px 0'}}>
@@ -116,7 +120,7 @@ useEffect(()=>{
       </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 4){
     return(
       <Blog Title="5 jobs of the future that don’t exist today" Author="The Housemates" Date="October 7, 2020" Body={<div style={{margin: '5px 0'}}>
@@ -159,7 +163,7 @@ useEffect(()=>{
   </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 5){
     return(
       <Blog Title="Inside the Activations @ Dubai International Motor Show" Author="The Housemates" Date="November 18, 2019" Body={<div style={{margin: '5px 0'}}>
@@ -183,7 +187,7 @@ useEffect(()=>{
   </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 6){
     return(
       <Blog Title="Harness the power of your brain" Author="The Housemates" Date="October 17, 2019" Body={<div style={{margin: '5px 0'}}>
@@ -214,7 +218,7 @@ useEffect(()=>{
   </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 7){
     return(
       <Blog Title="Fitness Activations That Get Attendees’ Hearts Pumping  💪" Author="The Housemates" Date="August 1, 2019" Body={<div style={{margin: '5px 0'}}>
@@ -259,7 +263,7 @@ useEffect(()=>{
   </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 8){
     return(
       <Blog Title="How to get out of a creative rut" Author="The Housemates" Date="July 16, 2018" Body={<div style={{margin: '5px 0'}}>
@@ -295,7 +299,7 @@ useEffect(()=>{
   <p>Everyone hates being stuck in a rut, but unfortunately we all face it in our lives some day or the other. So next time that ugly feeling seeps inside you, you know what exactly to do. Most importantly remember that this is not the end of the road but just a bump in the road of creativity.</p>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 9){
     return(
       <Blog Title="The Changing Future of Movie Premiers" Author="The Housemates" Date="July 30, 2018" Body={<div style={{margin: '5px 0'}}>
@@ -323,7 +327,7 @@ useEffect(()=>{
   </div>
     </div>}/>)
   }
-
+  // eslint-disable-next-line
   if(id == 10){
     return(
       <Blog Title="The Power of Experiential Marketing" Author="The Housemates" Date="July 4, 2018" Body={<div style={{margin: '5px 0'}}>
