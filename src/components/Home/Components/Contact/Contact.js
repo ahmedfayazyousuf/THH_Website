@@ -5,7 +5,7 @@ import React from 'react';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 // import YouTubeIcon from '@mui/icons-material/YouTube';
 // import EmailIcon from '@mui/icons-material/Email';
-// import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
+import Mobile from './../../../1_Assets/Images/Contact/makesvg.svg';
 
 const Contact = () => { 
 
@@ -60,6 +60,10 @@ const Contact = () => {
             <div style={{height: '90%', width: '90%', backgroundColor: 'white', marginTop: '-20px', display: 'flex'}}>
 
                 <div className='HideContactImg'>
+                    <div className='HideContactImg2' style={{height: '100%', width: '100%', opacity: '0.4'}}>
+                        {/* <img style = {{height: '100%', width: '100%'}} className='mobile' src={Mobile}/> */}
+                        {/* <h1>s</h1> */}
+                    </div>
                 </div>
 
                 <div className='contactForm'>

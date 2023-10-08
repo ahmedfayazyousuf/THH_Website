@@ -21,6 +21,21 @@ body, html{
   border: 0.5px solid #00F526;
   border-right: none;
 }
+.HideContactImg2 {
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./Images/Contact/contactImg234.png');
+  border: 0.5px solid #00F526;
+  border-right: none;
+  transition: background-color 0.3s; /* Add a smooth transition effect for background color */
+}
+
+.HideContactImg2:hover {
+  background-color: #00F526; /* Change the background color to #00F526 on hover */
+}
+
 
 .contactForm{
   height:100%;
