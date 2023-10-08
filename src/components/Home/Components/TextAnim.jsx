@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
-const AnimatedText = () => {
+const AnimatedText = (props) => {
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
   const textRef = useRef(null);
@@ -44,15 +44,14 @@ const AnimatedText = () => {
   }, [isVisible, controls]);
 
   return (
-    <div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={controls}
         ref={textRef}
+        style={props.Styles}
       >
-        <p>Your animated text goes here</p>
+        {props.Body}
       </motion.div>
-    </div>
   );
 };
 
