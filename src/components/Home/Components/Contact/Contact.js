@@ -6,6 +6,7 @@ import React from 'react';
 // import YouTubeIcon from '@mui/icons-material/YouTube';
 // import EmailIcon from '@mui/icons-material/Email';
 // import Mobile from './../../../1_Assets/Images/Contact/makesvg.svg';
+import TextAnim from '../TextAnim.jsx';
 
 const Contact = () => { 
 
@@ -66,24 +67,63 @@ const Contact = () => {
 
                 <div className='contactForm'>
                     <form>
-                        <h1 className='special' style={{alignSelf: 'start', fontWeight: '900', color: 'white', fontSize: '35px'}}>GET IN <span className='special' style={{color:'#00F526'}}>TOUCH</span></h1>
-                        <p style={{alignSelf: 'start', marginTop: '-12px', color: 'white'}}>Let's turn your ideas into reality. </p>
+
+                    <TextAnim  Body={
+                            <div > 
+                               <h1 className='special' style={{alignSelf: 'start', fontWeight: '900', color: 'white', fontSize: '35px'}}>GET IN <span className='special' style={{color:'#00F526'}}>TOUCH</span></h1>
+                            </div>
+                        }  />
+
+                    <TextAnim Styles={{marginTop: '-12px'}} Body={
+                            <div > 
+                        <p style={{  color: 'white'}}>Let's turn your ideas into reality. </p>
+                            </div>
+                        }  />
+                        
+                        <TextAnim  Body={
+                            <div > 
                         <input className="form-control inputDefault" type="text" name="from_name" id="name" placeholder="Full Name" required/>
+                            </div>
+                        }  />
+
+                        <TextAnim  Body={
+                            <div > 
                         <input className="form-control inputDefault" type="email" name="from_email" id="email" placeholder="Email Address" required/>
+                            </div>
+                        }  />
+
+                        <TextAnim  Body={
+                            <div > 
                         <input className="form-control inputDefault" type="text" name="subject" id="subject" placeholder="Subject" required/>
+                            </div>
+                        }  />
+
+                        <TextAnim  Body={
+                            <div > 
                         <textarea style={{height: '90px'}} className="form-control inputDefault" type="textarea" name="message" id="message" rows='3'placeholder="For us, the answer is Yes. Now, what's your question?" required/>
+                            </div>
+                        }  />
+
+
+
                         
                         <div>
                             <p id='error' className="error" style={{color:"white", marginBottom: '-17px', fontWeight: '900', fontSize: '11px'}}></p>
                         </div>
                         
                         
-                        <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>
 
-                        <div className='BelowContactPack'>
+                        <TextAnim  Body={
+                            <div > 
+                                <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>                            
+                            </div>
+                        }  />
+
+                        <TextAnim  Body={
+                            <div className='BelowContactPack'>
                             <div className='ContactPackText'>
-                                <p style={{fontSize: '14px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
-                                <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
+                                <p style={{fontSize: '12px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
+                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
 
                                 <p style={{fontSize: '12px'}}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
                                 <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
@@ -109,6 +149,10 @@ const Contact = () => {
                                 </ul>
                             </div>
                         </div>
+                        }  />
+                       
+
+                        
 
                         
 
