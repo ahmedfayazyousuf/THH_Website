@@ -317,7 +317,7 @@ width: 80px;
   top:50%;
   transform: translate(0,-50%);
   border-radius: 20px;
-  box-shadow:  0 30px 50px #505050;
+  box-shadow:  30px 30px 50px #505050;
 }
 .item:nth-child(1),
 .item:nth-child(2){
@@ -375,7 +375,8 @@ width: 80px;
     top: 68%;
   }
   .item:nth-child(4){
-    left: 7px;
+    left:calc(50% + 130px);
+    z-index: 1;
   }
   .item .name{
     font-size: 35px;
@@ -401,7 +402,7 @@ width: 80px;
 
 .item:nth-child(2)::after {
   content: "";
-  background: rgba(0, 0, 0, 0.8); /* Adjust the opacity as needed */
+  background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
   position: absolute;
   top: 0;
   left: 0;

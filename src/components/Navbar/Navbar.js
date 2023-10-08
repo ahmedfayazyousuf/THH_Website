@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div style={{zIndex: '1000000000000000000001'}}>
+      <div style={{top: '0px', left: '-20px', height: '90px', width: '180px', backgroundColor: 'black', position: 'fixed', zIndex: '10000000000000000000000000000', opacity: '0.5', transform: 'skew(-20deg)'}}></div>
         <img alt='thhlogo' style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
       
 
