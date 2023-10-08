@@ -7,6 +7,7 @@ import FireSection from './Components/FireSection/FireSection';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Hero from './Components/Hero/Hero';
 
+
 const Home = () => { 
 
     return (
