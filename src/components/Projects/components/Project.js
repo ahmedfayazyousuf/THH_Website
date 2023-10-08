@@ -4,7 +4,7 @@ import $ from 'jquery'
 
 const Project = (props) => { 
 
-
+    // eslint-disable-next-line
     const [images, setImages] = useState(props.Images)
 
     
@@ -31,11 +31,12 @@ const Project = (props) => {
         <div id='main' style={{width: '100vw', height: '100%', display:'flex',justifyContent:'center',alignItems:"center",background:"black"}}>
 
             
-
+{/* eslint-disable-next-line */}
             <div id='projresp' style={{background: 'grey', height: '100%', width: '90%', marginTop:'120px',display:'flex', justifyContent: 'center', alignItems: 'center',background:"black"}}>
                 
                 <div style={{display:'flex', flexDirection:'column', flex:'60%'}}> 
                     {images.map((image, index) => (
+                        // eslint-disable-next-line
                         <img key={index} src={image} width={700} style={{marginBottom:'40px'}} alt={`Image ${index}`} />
                     ))}
                 </div>

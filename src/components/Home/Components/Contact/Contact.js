@@ -5,7 +5,7 @@ import React from 'react';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 // import YouTubeIcon from '@mui/icons-material/YouTube';
 // import EmailIcon from '@mui/icons-material/Email';
-import Mobile from './../../../1_Assets/Images/Contact/makesvg.svg';
+// import Mobile from './../../../1_Assets/Images/Contact/makesvg.svg';
 
 const Contact = () => { 
 

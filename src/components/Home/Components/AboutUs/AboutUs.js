@@ -6,6 +6,8 @@ import innovations from './../../../1_Assets/Images/AboutUs/innovations.jpg';
 import activations from './../../../1_Assets/Images/AboutUs/activations.jpg';
 import Cover from './../../../1_Assets/Images/AboutUs/Cover.jpg';
 
+import TextAnim from './TextAnim.jsx';
+
 
 const AboutUs = () => { 
     return (
@@ -13,15 +15,22 @@ const AboutUs = () => {
             <div style={{height: '90%', width: '100%', marginTop: '-20px', display: 'flex'}}>
 
                 <div style={{display: 'flex', width: '50%', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${experiences}')`, height: '270px', width: '220px', marginBottom: '-30px', marginLeft: '300px'}}></div>
-                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${innovations}')`, height: '200px', width: '300px', marginLeft: '-120px'}}></div>
-                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${activations}')`, height: '200px', width: '300px', marginTop: '-20px', marginLeft: '80px'}}></div>
-
+                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${experiences}')`, height: '270px', width: '220px', marginBottom: '-30px', marginLeft: '300px', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>EXPERIENCES</h1>
+                    </div>
+                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${innovations}')`, height: '200px', width: '300px', marginLeft: '-120px'}}>
+                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', position: 'sticky', bottom: '0'}}>INNOVATION</h1>
+                    </div>
+                    <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${activations}')`, height: '200px', width: '300px', marginTop: '-20px', marginLeft: '80px', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>ACTIVATIONS</h1>
+                    </div>
                 </div>
+                <TextAnim />
 
                 <div style={{display: 'flex', width: '50%', alignItems: 'center'}}>
 
-                    <div style={{display: 'flex', width: '70%',flexDirection: 'column'}}>
+                    <div style={{display: 'flex', width: '70%',flexDirection: 'column', padding: '20px'}}>
+                        
                         <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
 
                         <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>Experiential: Like never before</p>

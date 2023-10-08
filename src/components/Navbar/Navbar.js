@@ -16,7 +16,9 @@ function App() {
   return (
     <div style={{zIndex: '1000000000000000000001'}}>
       <div style={{top: '0px', left: '-20px', height: '90px', width: '180px', backgroundColor: 'black', position: 'fixed', zIndex: '10000000000000000000000000000', opacity: '0.5',boxShadow: '0px 1px 5px #00f526', transform: 'skew(-30deg)'}}></div>
+      <NavLink className="nav-link" to="/">
         <img alt='thhlogo' style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
+      </NavLink>
       
 
       <div className={`container ${menuOpen ? 'full-menu' : ''}`}  style={{zIndex: '1000000000000000000001'}}>
@@ -32,7 +34,7 @@ function App() {
         <nav className="overlay-menu">
           <ul>
             <li><NavLink className="nav-link" to="/" style={{fontWeight: '600'}}> Home</NavLink></li>
-            <li><NavLink className="nav-link" to="/Blogs" style={{fontWeight: '600'}}> Blogs</NavLink></li>
+            <li><NavLink className="nav-link" to="/Fire" style={{fontWeight: '600'}}>Fire</NavLink></li>
             <li><NavLink className="nav-link" to="/Contact" style={{fontWeight: '600'}}> Contact</NavLink></li>
             <li><NavLink className="nav-link" to="/Invited" style={{fontWeight: '600'}}> About</NavLink></li>
             <li><NavLink className="nav-link" to="/Invited" style={{fontWeight: '600'}}> About</NavLink></li>

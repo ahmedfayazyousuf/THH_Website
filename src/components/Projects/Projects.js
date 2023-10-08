@@ -1,8 +1,9 @@
-import {React, useEffect, useState} from 'react';
+import {React, useState} from 'react';
 import '../1_Assets/thh.css';
 import img1 from '../1_Assets/Images/Projects/AlSerkal.jpg'
 import img2 from '../1_Assets/Images/Projects/ArabHealth.jpg'
 import img3 from '../1_Assets/Images/Projects/G42.jpg'
+// eslint-disable-next-line
 import $ from 'jquery'
 import Project from './components/Project';
 
@@ -12,7 +13,7 @@ const Projects = () => {
 
     const {id} = useParams();
 
-
+    // eslint-disable-next-line
     const [images, setImages] = useState([img1,img2,img3])
 
     function data(){
@@ -37,7 +38,7 @@ const Projects = () => {
                 </div>
             } />)
         }
-
+        // eslint-disable-next-line
         if(id == 2){
             return(
             <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/07/5.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/4-2.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/1-2.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/3-2.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/2-2.jpg"]} Title="Navigating the Future of Mobility" Body={<div class="wpb_text_column wpb_content_element ">
@@ -56,7 +57,7 @@ const Projects = () => {
             </div>
           </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 3){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/07/3-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/4-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/1-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/2-1.jpg"]} Title="Encouraging Business Innovations" Body={<div class="wpb_text_column wpb_content_element ">
@@ -75,7 +76,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 4){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/07/1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/3.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/2.jpg","https://thehanginghouse.com/wp-content/uploads/2023/07/4.jpg"]} Title="Welcome to Swish City" Body={<div class="wpb_text_column wpb_content_element ">
@@ -94,7 +95,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 5){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/03/emplyeecover-1.png","https://thehanginghouse.com/wp-content/uploads/2023/03/emp3-1.png","https://thehanginghouse.com/wp-content/uploads/2023/03/emp2-1.png","https://thehanginghouse.com/wp-content/uploads/2023/03/emp1-1.jpg"]} Title="Explore More, Together" Body={<div class="wpb_text_column wpb_content_element ">
@@ -139,7 +140,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 6){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/03/AHcoverf-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/ah4-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/ah3-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/ah2-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/ah1-1.jpg"]} Title="Bringing Evolution in Motion" Body={<div class="wpb_text_column wpb_content_element ">
@@ -182,7 +183,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 7){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/03/alserkalcover-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/alserkal2-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/alserkal1-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/alserkal3-1.jpg"]} Title="A Celebration of Color & Connection" Body={<div class="wpb_text_column wpb_content_element ">
@@ -225,7 +226,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 8){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/03/aftersalescover-1.png","https://thehanginghouse.com/wp-content/uploads/2023/03/aftersales3-1.jpg","https://thehanginghouse.com/wp-content/uploads/2023/03/aftersales2-1.png","https://thehanginghouse.com/wp-content/uploads/2023/03/aftersales1-1.jpg"]} Title="A Comprehensive Conference" Body={<div class="wpb_text_column wpb_content_element ">
@@ -269,7 +270,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 9){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/01/g42crop.jpg"]} Title="Discover Limitless" Body={<div class="wpb_text_column wpb_content_element ">
@@ -301,7 +302,7 @@ const Projects = () => {
                 </div>
               </div>}/>)
         }
-
+        // eslint-disable-next-line
         if(id == 10){
             return(
                 <Project Images={["https://thehanginghouse.com/wp-content/uploads/2023/01/rtacrop.jpg"]} Title="Expanding Horizons" Body={<div class="wpb_text_column wpb_content_element ">
