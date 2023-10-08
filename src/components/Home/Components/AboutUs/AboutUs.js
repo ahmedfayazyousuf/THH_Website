@@ -10,7 +10,9 @@ const AboutUs = () => {
                 </div>
 
                 <div style={{display: 'flex', width: '50%', background: 'blue'}}>
+                    <div syle={{display: 'flex', background: 'yellow'}}>
 
+                    </div>
                 </div>
 
                 
