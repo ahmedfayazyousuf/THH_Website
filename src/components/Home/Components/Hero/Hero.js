@@ -40,7 +40,7 @@ export default function Hero(){
                     <div class="content" style={{zIndex:'1000000000000000'}}>
                         <div class="name">GEELY X AGMC – UAE Showroom Launch 2023</div>
                         <div class="des">Navigating the Future of Mobility</div>
-                        <button className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${Huawei}')`}}>

@@ -4,6 +4,7 @@ import ContactForm from './Components/Contact/Contact'
 import BlogGallery from './Components/BlogGallery/BlogGallery'
 import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
 import FireSection from './Components/FireSection/FireSection';
+import AboutUs from './Components/AboutUs/AboutUs';
 import Hero from './Components/Hero/Hero';
 
 const Home = () => { 
@@ -13,12 +14,12 @@ const Home = () => {
 
             
 
-            <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{background: 'black', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Hero />
             </div>
 
-            <div style={{background: 'lightblue', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <h1 >About</h1>
+            <div style={{background: 'black', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <AboutUs />
             </div>
 
             <div style={{background: 'RED', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -31,10 +32,6 @@ const Home = () => {
 
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <ClientsCarousel/>
-            </div>
-
-            <div class="tooltip" style={{color: 'white', zIndex: '1000000000000000000000000', width: '100vw', height: '100px', background: 'red'}}>Hover over me
-              <p class="tooltiptext" style={{color: 'white'}}>Tooltip text</p>
             </div>
             
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>

@@ -73,8 +73,8 @@ body, html{
 
 .buttonDefault:hover{
   background-color: transparent;
-  border: 0.5px solid white;
-  color: white;
+  border: 0.5px solid #00F526;
+  color: #00f526;
   transition: 0.3s;
 }
 
