@@ -13,7 +13,7 @@ const Projects = () => {
     
       useEffect(() => {
 
-        $('#root').on('scroll', function () {
+        $('body').on('scroll', function () {
             console.log('scolll')
             // console.log($("#divs"))
             $("#divs").stop().animate({
