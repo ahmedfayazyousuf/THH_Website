@@ -1,26 +1,27 @@
 import React from 'react';
-import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
+// import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
 
 import experiences from './../../../1_Assets/Images/AboutUs/experiences.jpg';
 import innovations from './../../../1_Assets/Images/AboutUs/innovations.jpg';
 import activations from './../../../1_Assets/Images/AboutUs/activations.jpg';
+import Cover from './../../../1_Assets/Images/AboutUs/Cover.jpg';
 
 
 const AboutUs = () => { 
     return (
-        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
-            <div style={{height: '90%', width: '100%', backgroundColor: 'grey', marginTop: '-20px', display: 'flex'}}>
+        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${Cover}')`}}>
+            <div style={{height: '90%', width: '100%', marginTop: '-20px', display: 'flex'}}>
 
-                <div style={{display: 'flex', width: '50%', background: 'black', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+                <div style={{display: 'flex', width: '50%', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
                     <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${experiences}')`, height: '270px', width: '220px', marginBottom: '-30px', marginLeft: '300px'}}></div>
                     <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${innovations}')`, height: '200px', width: '300px', marginLeft: '-120px'}}></div>
                     <div style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${activations}')`, height: '200px', width: '300px', marginTop: '-20px', marginLeft: '80px'}}></div>
 
                 </div>
 
-                <div style={{display: 'flex', width: '50%', background: 'black', alignItems: 'center'}}>
+                <div style={{display: 'flex', width: '50%', alignItems: 'center'}}>
 
-                    <div style={{display: 'flex', background: 'black', width: '70%',flexDirection: 'column'}}>
+                    <div style={{display: 'flex', width: '70%',flexDirection: 'column'}}>
                         <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
 
                         <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>Experiential: Like never before</p>
