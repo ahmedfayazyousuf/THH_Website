@@ -365,7 +365,7 @@ width: 80px;
 
 @media screen and (max-width: 750px) {
   .item .content{
-    left: 7px;
+    left: 20px;
     top: 35%;
     width: 350px;
   }
