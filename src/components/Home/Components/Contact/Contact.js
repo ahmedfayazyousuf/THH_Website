@@ -61,8 +61,6 @@ const Contact = () => {
 
                 <div className='HideContactImg'>
                     <div className='HideContactImg2' style={{height: '100%', width: '100%', opacity: '0.4'}}>
-                        {/* <img style = {{height: '100%', width: '100%'}} className='mobile' src={Mobile}/> */}
-                        {/* <h1>s</h1> */}
                     </div>
                 </div>
 
@@ -76,14 +74,13 @@ const Contact = () => {
                         <textarea style={{height: '90px'}} className="form-control inputDefault" type="textarea" name="message" id="message" rows='3'placeholder="For us, the answer is Yes. Now, what's your question?" required/>
                         
                         <div>
-                            <p id='error' className="error" style={{color:"white", marginBottom: '-17px', fontWeight: '900', fontSize: '11px'}}>snkdnks</p>
+                            <p id='error' className="error" style={{color:"white", marginBottom: '-17px', fontWeight: '900', fontSize: '11px'}}></p>
                         </div>
                         
                         
                         <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>
 
                         <div className='BelowContactPack'>
-
                             <div className='ContactPackText'>
                                 <p style={{fontSize: '14px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
                                 <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
