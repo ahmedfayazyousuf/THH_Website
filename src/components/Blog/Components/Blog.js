@@ -14,7 +14,7 @@ const Blog = (props) => {
 
                 <div style={{height:'100%', width: '1000px', border: '0.5px solid transparent', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', flexDirection: 'column', marginTop: '100px'}}>
 
-                    <div style={{margin: '80px', border: '0.2px dotted #00f526', padding: '40px' }}>
+                    <div style={{margin: '80px', border: '0.2px solid #00f526', padding: '40px' }}>
                         <p style={{fontStyle: 'italic', fontSize: '90%', color: 'grey'}} >By {props.Author},</p>
                         <p style={{fontStyle: 'italic', marginTop: '-20px', fontSize: '90%', color: 'grey', marginBottom: '10px'}}>{props.Date}</p>
 
