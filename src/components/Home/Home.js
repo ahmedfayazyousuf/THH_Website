@@ -22,7 +22,7 @@ const Home = () => {
                 <AboutUs />
             </div>
 
-            <div style={{background: 'RED', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{background: 'RED', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <FireSection />
             </div>
 
