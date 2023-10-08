@@ -462,3 +462,10 @@ width: 80px;
 .IconSocial:hover{
   color: #00F526;
 }
+
+
+@media screen and (max-width: 810px) {
+  #projresp{
+    flex-direction: column;
+  }
+}

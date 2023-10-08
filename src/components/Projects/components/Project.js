@@ -10,14 +10,18 @@ const Project = (props) => {
     
       useEffect(() => {
 
-        $('body').on('scroll', function () {
-            console.log('scolll')
-            // console.log($("#divs"))
-            $("#divs").stop().animate({
-              "marginTop": ($('body').scrollTop()) + "px",
-              "marginLeft": ($('body').scrollLeft()) + "px"
-            }, "slow");
-          });
+        if(window.innerWidth >= 811){
+            $('body').on('scroll', function () {
+                console.log('scolll')
+                // console.log($("#divs"))
+                $("#divs").stop().animate({
+                  "marginTop": ($('body').scrollTop()) + "px",
+                  "marginLeft": ($('body').scrollLeft()) + "px"
+                }, "slow");
+              });
+        }
+
+     
     },[])
 
 
@@ -28,7 +32,7 @@ const Project = (props) => {
 
             
 
-            <div style={{background: 'grey', height: '100%', width: '90%', marginTop:'120px',display:'flex', justifyContent: 'center', alignItems: 'center',background:"black"}}>
+            <div id='projresp' style={{background: 'grey', height: '100%', width: '90%', marginTop:'120px',display:'flex', justifyContent: 'center', alignItems: 'center',background:"black"}}>
                 
                 <div style={{display:'flex', flexDirection:'column', flex:'60%'}}> 
                     {images.map((image, index) => (
