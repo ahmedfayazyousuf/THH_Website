@@ -374,14 +374,11 @@ width: 80px;
     height:200px;
     top: 68%;
   }
-  .item:nth-child(3){
-    left:60%;
+  .item:nth-child(4){
+    left: 7px;
   }
   .item .name{
     font-size: 35px;
-  }
-  .buttons{
-
   }
 }
 
