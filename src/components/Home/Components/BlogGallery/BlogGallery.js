@@ -11,7 +11,7 @@ const BlogGallery = () => {
 
     return (
         <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
-            <div style={{height: '90%', width: '70%', backgroundColor: 'white', marginTop: '-20px', display: 'flex'}}>
+            <div style={{height: '90%', width: '100vw', backgroundColor: 'white', marginTop: '-20px', display: 'flex'}}>
 
 
             <section className="gallery" style={{background: 'black', overflowY: 'scroll'}}>
