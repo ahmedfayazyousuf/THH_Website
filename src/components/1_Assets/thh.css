@@ -82,7 +82,7 @@ body, html{
   border: 0.5px solid #00F526;
   margin: 5px;
   border-radius: 0;
-  height: 60px;
+  /* height: 60px; */
   margin-bottom: 10px;
   color: white;
   background: transparent;
@@ -435,5 +435,4 @@ width: 80px;
 }
 .IconSocial:hover{
   color: #00F526;
-  /* background-color: #00F526; */
 }

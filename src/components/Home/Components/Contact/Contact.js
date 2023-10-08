@@ -1,10 +1,10 @@
 import React from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import EmailIcon from '@mui/icons-material/Email';
+// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import YouTubeIcon from '@mui/icons-material/YouTube';
+// import EmailIcon from '@mui/icons-material/Email';
 // import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
 
 const Contact = () => { 
@@ -69,7 +69,7 @@ const Contact = () => {
                         <input className="form-control inputDefault" type="text" name="from_name" id="name" placeholder="Full Name" required/>
                         <input className="form-control inputDefault" type="email" name="from_email" id="email" placeholder="Email Address" required/>
                         <input className="form-control inputDefault" type="text" name="subject" id="subject" placeholder="Subject" required/>
-                        <textarea style={{height: '120px'}} className="form-control inputDefault" type="textarea" name="message" id="message" rows='3'placeholder="For us, the answer is Yes. Now, what's your question?" required/>
+                        <textarea style={{height: '90px'}} className="form-control inputDefault" type="textarea" name="message" id="message" rows='3'placeholder="For us, the answer is Yes. Now, what's your question?" required/>
                         
                         <div>
                             <p id='error' className="error" style={{color:"white", marginBottom: '-17px', fontWeight: '900', fontSize: '11px'}}>snkdnks</p>
@@ -78,12 +78,29 @@ const Contact = () => {
                         
                         <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>
 
-                        <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
+                        {/* <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
                             <WhatsAppIcon style={{color: 'red'}} className='IconSocial'/>
                             <FacebookIcon className='IconSocial'/>
                             <InstagramIcon className='IconSocial'/>
                             <EmailIcon className='IconSocial'/>
                             <YouTubeIcon className='IconSocial'/>
+                        </div> */}
+
+                        <div style={{display: 'flex', flexDirection: 'column', width: '100%', padding: '10px'}}>
+                            <p style={{fontSize: '14px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
+
+                            <p style={{fontSize: '14px'}}>welcome@thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
+
+                            <p style={{fontSize: '14px'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>Where the house hangs</p>
+
+                            <p style={{fontSize: '14px'}}>joinus@thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>To become a part of the house!</p>
+
+                            <p style={{fontSize: '14px'}}>procurement@thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
                         </div>
 
                         <div style={{backgroundColor: 'white', color: ''}}>

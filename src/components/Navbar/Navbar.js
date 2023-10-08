@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from "react-router-dom";
-// import thhwhite from '../1_Assets/thhwhite.png';
+import thhwhite from '../1_Assets/thhwhite.png';
 import './Navbar.scss';
 // import $ from "jquery"
 import React, { useState } from 'react';
@@ -14,7 +14,10 @@ function App() {
   };
 
   return (
-    <div  style={{zIndex: '1000000000000000000001'}}>
+    <div style={{zIndex: '1000000000000000000001'}}>
+        <img style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
+      
+
       <div className={`container ${menuOpen ? 'full-menu' : ''}`}  style={{zIndex: '1000000000000000000001'}}>
         <div className="menu-container" onClick={toggleMenu} id="toggle"  style={{zIndex: '1000000000000000000001'}}>
         {/* eslint-disable-next-line */}
