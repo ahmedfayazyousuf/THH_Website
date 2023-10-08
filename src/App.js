@@ -26,7 +26,7 @@ const App = () => {
           {/* <Route exact path="/Contact" element={<Contact />} /> */}
           <Route exact path="/Fire" element={<Fire />} />
           <Route exact path="/Blogs/:id" element={<Blogs />} />
-          <Route exact path="/Projects" element={<Projects />} />
+          <Route exact path="/Projects/:id" element={<Projects />} />
       </Routes>
     </>
   )
