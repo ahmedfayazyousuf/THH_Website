@@ -87,20 +87,20 @@ const Contact = () => {
                         </div> */}
 
                         <div style={{display: 'flex', flexDirection: 'column', width: '100%', padding: '10px'}}>
-                            <p style={{fontSize: '14px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
-                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
+                            <p style={{fontSize: '14px', opacity: '0.7', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', opacity: '0.7', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
 
-                            <p style={{fontSize: '14px'}}>welcome@thehanginghouse.com</p>
-                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
+                            <p style={{fontSize: '14px', opacity: '0.7'}}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '12px'}}>@</span>thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', opacity: '0.7', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
 
-                            <p style={{fontSize: '14px'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
-                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>Where the house hangs</p>
+                            <p style={{fontSize: '14px', opacity: '0.7'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', opacity: '0.7', marginBottom: '5px'}}>Where the house hangs</p>
 
-                            <p style={{fontSize: '14px'}}>joinus@thehanginghouse.com</p>
-                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>To become a part of the house!</p>
+                            <p style={{fontSize: '14px', opacity: '0.7'}}>joinus<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '12px'}}>@</span>thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', opacity: '0.7', marginBottom: '5px'}}>To become a part of the house!</p>
 
-                            <p style={{fontSize: '14px'}}>procurement@thehanginghouse.com</p>
-                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
+                            <p style={{fontSize: '14px', opacity: '0.7'}}>procurement<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '12px'}}>@</span>thehanginghouse.com</p>
+                            <p style={{marginTop: '-19px', fontSize: '12px', color: '#00f526', opacity: '0.7', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
                         </div>
 
                         <div style={{backgroundColor: 'white', color: ''}}>

@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div style={{zIndex: '1000000000000000000001'}}>
-        <img style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
+        <img alt='thhlogo' style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
       
 
       <div className={`container ${menuOpen ? 'full-menu' : ''}`}  style={{zIndex: '1000000000000000000001'}}>
