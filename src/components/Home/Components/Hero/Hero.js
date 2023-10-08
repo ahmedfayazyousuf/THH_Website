@@ -37,7 +37,7 @@ export default function Hero(){
                     <div class="content" style={{zIndex:'1000000000000000'}}>
                         <div class="name">Nissan Al Rostamani – X-Trail Launch 2023</div>
                         <div class="des">A Thrilling X-Pedition into the Unknown</div>
-                        <button className='buttonDefault' onClick= {()=> navigate("/projects/1")} style={{width: '200px', height: '60px'}} >Read more</button>
+                        <button className='buttonDefault' onClick= {()=> navigate("/projects/1")} style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${Geely}')`}}>
@@ -51,56 +51,56 @@ export default function Hero(){
                     <div class="content" style={{zIndex:'1000000000000000'}}>
                         <div class="name">Huawei – Comic Con 2023</div>
                         <div class="des">Encouraging Business Innovations</div>
-                        <button onClick= {()=> navigate("/projects/3")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/3")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${NBA}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">NBA2KL – Comic Con 2023</div>
                         <div class="des">Welcome to Swish City</div>
-                        <button onClick= {()=> navigate("/projects/4")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/4")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${NissanEmployee}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">Nissan Middle East FZE – Employee Event</div>
                         <div class="des">Explore More, Together</div>
-                        <button onClick= {()=> navigate("/projects/5")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/5")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${ArabHealth}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">American Hospital – Arab Health 2023</div>
                         <div class="des">Bringing Evolution in Motion</div>
-                        <button onClick= {()=> navigate("/projects/6")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/6")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${AlSerkal}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">Al Serkal Avenue – Quoz Arts Fest</div>
                         <div class="des">A Celebration of Color & Connection </div>
-                        <button onClick= {()=> navigate("/projects/7")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/7")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${NissanAftersales}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">Nissan Middle East FZE – Aftersales Conference</div>
                         <div class="des">A Comprehensive Conference</div>
-                        <button onClick= {()=> navigate("/projects/8")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/8")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${G42}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">G42 at Gitex 2022</div>
                         <div class="des">Discover Limitless</div>
-                        <button onClick= {()=> navigate("/projects/9")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/9")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
                 <div class="item" style={{backgroundImage: `url('${RTA}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}> 
                         <div class="name">Roads & Transport Authority at Project AB</div>
                         <div class="des">Expanding Horizons</div>
-                        <button onClick= {()=> navigate("/projects/10")} className='buttonDefault' style={{width: '200px', height: '60px'}}>Read more</button>
+                        <button onClick= {()=> navigate("/projects/10")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
             </div>
