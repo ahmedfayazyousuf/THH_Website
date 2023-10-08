@@ -1,7 +1,11 @@
 import React from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import EmailIcon from '@mui/icons-material/Email';
+// import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
 
 const Contact = () => { 
 
@@ -73,8 +77,17 @@ const Contact = () => {
                         
                         
                         <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>
-                        <div style={{display: 'flex', flexDirection: 'row', width: '98%', background: 'red'}}>
-                            <WhatsAppIcon/>
+
+                        <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
+                            <WhatsAppIcon style={{color: 'red'}} className='IconSocial'/>
+                            <FacebookIcon className='IconSocial'/>
+                            <InstagramIcon className='IconSocial'/>
+                            <EmailIcon className='IconSocial'/>
+                            <YouTubeIcon className='IconSocial'/>
+                        </div>
+
+                        <div style={{backgroundColor: 'white', color: ''}}>
+
                         </div>
                     </form>
                     

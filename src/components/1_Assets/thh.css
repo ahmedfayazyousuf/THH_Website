@@ -429,3 +429,11 @@ width: 80px;
 }
 
 
+.IconSocial{
+  position: sticky;
+  color: #00F526;
+}
+.IconSocial:hover{
+  color: #00F526;
+  /* background-color: #00F526; */
+}
