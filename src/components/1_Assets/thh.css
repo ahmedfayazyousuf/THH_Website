@@ -484,3 +484,97 @@ width: 80px;
     flex-direction: column;
   }
 }
+
+
+
+
+/** Icon Hover Effect 4 **/
+.hover-effect4 {
+  min-height: 40px;
+  /* background: #009688; */
+  text-align: right;
+}
+
+.hover-effect4 ul {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.hover-effect4 ul li {
+  display: inline-block;
+}
+
+.hover-effect4 ul li a {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px 5px 0px 0px;
+  line-height: 100px;
+  display: inline-block;
+  /* border-radius: 10px; */
+  width: 30px;
+  height: 30px;
+  background: #00f526;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.hover-effect4 ul li:hover a {
+  background: black;
+  border: 1px solid #00f526;
+  
+}
+
+.hover-effect4 ul li a i{
+  color: black;
+}
+
+.hover-effect4 ul li:hover a i{
+  color: #00f526;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.BelowContactPack{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.ContactPackText{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.ContactPackSocials{
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ margin: 0;
+ width: 250px;
+ height: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .ContactPackText{
+    width: 100%;
+  }
+
+  .ContactPackSocials{
+    width: 100%;
+  }
+
+  .BelowContactPack{
+    flex-direction: column;
+  }
+}
