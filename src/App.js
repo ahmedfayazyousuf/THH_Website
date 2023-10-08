@@ -13,6 +13,7 @@ import Blogs from './components/Blog/Blogs';
 import Error from './components/Error/Error';
 import Home2 from './components/Home2/Home';
 
+import Projects from './components/Projects/Projects';
 const App = () => {
   return (
     <>
@@ -25,7 +26,7 @@ const App = () => {
           {/* <Route exact path="/Contact" element={<Contact />} /> */}
           <Route exact path="/Fire" element={<Fire />} />
           <Route exact path="/Blogs/:id" element={<Blogs />} />
-          {/* <Route exact path="/Project" element={<Project />} /> */}
+          <Route exact path="/Projects" element={<Projects />} />
       </Routes>
     </>
   )
