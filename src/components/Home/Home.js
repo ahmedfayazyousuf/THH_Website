@@ -13,13 +13,11 @@ const Home = () => {
     return (
         <div style={{width: '100vw', height: '100%'}}>
 
-            
-
             <div style={{background: 'black', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Hero />
             </div>
 
-            <div style={{background: 'black', height: '700px', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <AboutUs />
             </div>
 

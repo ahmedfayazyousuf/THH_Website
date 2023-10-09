@@ -49,6 +49,7 @@ const AnimatedText = (props) => {
         animate={controls}
         ref={textRef}
         style={props.Styles}
+        className={props.CN}
       >
         {props.Body}
       </motion.div>

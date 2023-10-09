@@ -580,14 +580,102 @@ height: 60px;
 }
 
 .mainAbout{
-  height: 90%;
-  width: 100%;
-  margin-top: -20px;
+  height: 100%;
+  /* width: 100%; */
+  /* margin-top: -20px; */
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 750px) {
+.AboutImageDiv{
+  display: flex;
+
+  width: 50%;
+  justify-content: center;
+  /* background-color: red; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.AboutTextDiv{
+    display: flex;
+    width: 50%;
+    align-items: center;
+} 
+
+.Experiences{
+  background-size: cover;
+  background-position: center;
+  background-image: url('./Images/AboutUs/experiences.jpg');
+  height: 270px;
+  width: 220px;
+  margin-bottom: -30px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Innovation{
+  background-size: cover;
+  background-position: center;
+  background-image: url('./Images/AboutUs/innovations.jpg');
+  height: 200px;
+  width: 300px;
+  margin-left: -120px; 
+}
+
+.Activations{
+  background-size: cover;
+  background-position: center;
+  background-image: url('./Images/AboutUs/activations.jpg');
+  height: 200px;
+  width: 300px;
+  margin-top: -20px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+} 
+
+
+@media screen and (max-width: 1045px) {
   .mainAbout{
     flex-direction: column;
   }
+
+  .AboutImageDiv{
+    /* height: 100%;   */
+    width: 100%;
+    padding: 20px;
+  }
+
+  .AboutTextDiv{
+    width: 100%;
+  }
+
+  .Experiences{
+    height: 200px;
+    width: 150px;
+    margin-bottom: -30px;
+    margin-left: 100px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .Innovation{
+    height: 130px;
+    width: 200px;
+    margin-top: -10px;
+    margin-left: -90px;
+  }
+  
+  .Activations{
+    height: 150px;
+    width: 220px;
+    margin-top: -20px;
+    margin-left: 80px;
+  }
+
 }

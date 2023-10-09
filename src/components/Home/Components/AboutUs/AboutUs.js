@@ -1,9 +1,9 @@
 import React from 'react';
 // import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
 
-import experiences from './../../../1_Assets/Images/AboutUs/experiences.jpg';
-import innovations from './../../../1_Assets/Images/AboutUs/innovations.jpg';
-import activations from './../../../1_Assets/Images/AboutUs/activations.jpg';
+// import experiences from './../../../1_Assets/Images/AboutUs/experiences.jpg';
+// import innovations from './../../../1_Assets/Images/AboutUs/innovations.jpg';
+// import activations from './../../../1_Assets/Images/AboutUs/activations.jpg';
 import Cover from './../../../1_Assets/Images/AboutUs/Cover.jpg';
 
 import TextAnim from '../TextAnim.jsx';
@@ -11,38 +11,37 @@ import TextAnim from '../TextAnim.jsx';
 
 const AboutUs = () => { 
     return (
-        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${Cover}')`}}>
-            <div style={{height: '90%', width: '100%', marginTop: '-20px', display: 'flex'}}>
+        <div style={{ width: '100vw', height: '100%', padding: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${Cover}')`}}>
+            <div className='mainAbout'>
 
-                <div style={{display: 'flex', width: '50%', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-                    <TextAnim  Styles={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${experiences}')`, height: '270px', width: '220px', marginBottom: '-30px', marginLeft: '300px', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}} Body={
-                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>EXPERIENCES</h1>
+                <div className='AboutImageDiv'>
+                    <TextAnim CN='Experiences' Body={<></>
+                        // <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>EXPERIENCES</h1>
                     }  />
-                    <TextAnim  Styles={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${innovations}')`, height: '200px', width: '300px', marginLeft: '-120px'}} Body={
-                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', position: 'sticky', bottom: '0'}}>INNOVATION</h1>
+                    <TextAnim CN='Innovation' Body={<></>
+                        // <h1 className='special' style={{color: '#00f526', fontSize: '20px', position: 'sticky', bottom: '0'}}>INNOVATION</h1>
                     }  />
-                    <TextAnim Styles={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url('${activations}')`, height: '200px', width: '300px', marginTop: '-20px', marginLeft: '80px', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}} Body={
-                        <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>ACTIVATIONS</h1>
-                    }  />      
+                    <TextAnim CN='Activations' Body={<></>
+                        // <h1 className='special' style={{color: '#00f526', fontSize: '20px', marginRight: '8px', marginBottom: '5px'}}>ACTIVATIONS</h1>
+                    }  />
                 </div>
                 
 
-                <div style={{display: 'flex', width: '50%', alignItems: 'center'}}>
+                <div className='AboutTextDiv'>
 
-                    <div style={{display: 'flex', width: '70%',flexDirection: 'column', padding: '20px'}}>
+                    <div style={{display: 'flex', width: '700px',flexDirection: 'column', padding: '20px', marginLeft: '20px'}}>
+                        <TextAnim Body={
+                        <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
+                        }  />
 
-                    <TextAnim Body={
-                       <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
-                    }  />
-
-                    <TextAnim Body={
-                        <div>
-                            <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>Experiential: Like never before</p>
-                            <p style={{fontSize: '14px'}}>The Hanging House is everything experiential. We take creative action and prope audiences into a speechless affair. We bring your brand home, sparking trust, meaning, and change; Blending novelty and precision to transform moments into memories.</p>
-                            <p style={{marginTop: '-10px', marginBottom: '15px', fontSize: '14px'}}>Whether it’s through live activations, or virtual solutions, we tell solutions, we tell stories through the power of human interaction.</p>
-                        </div>
-                    }  />
-                        
+                        <TextAnim Body={
+                            <div>
+                                <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>Experiential: Like never before</p>
+                                <p style={{fontSize: '14px'}}>The Hanging House is everything experiential. We take creative action and prope audiences into a speechless affair. We bring your brand home, sparking trust, meaning, and change; Blending novelty and precision to transform moments into memories.</p>
+                                <p style={{marginTop: '-10px', marginBottom: '15px', fontSize: '14px'}}>Whether it’s through live activations, or virtual solutions, we tell solutions, we tell stories through the power of human interaction.</p>
+                            </div>
+                        }  />
+                            
 
                         <TextAnim Body={
                         <div>
