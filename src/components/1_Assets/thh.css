@@ -639,8 +639,20 @@ height: 60px;
   align-items: flex-end;
 } 
 
+.texttextdiv{
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 20px; 
+}
 
 @media screen and (max-width: 1045px) {
+
+  .texttextdiv{
+  padding: 0px;
+  margin-left: 0px; 
+  }
   .mainAbout{
     flex-direction: column;
   }

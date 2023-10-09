@@ -29,7 +29,7 @@ const AboutUs = () => {
 
                 <div className='AboutTextDiv'>
 
-                    <div style={{display: 'flex', width: '700px',flexDirection: 'column', padding: '20px', marginLeft: '20px'}}>
+                    <div className='texttextdiv'>
                         <TextAnim Body={
                         <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
                         }  />
