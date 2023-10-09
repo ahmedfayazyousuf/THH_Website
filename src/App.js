@@ -11,7 +11,6 @@ import Fire from "./components/Fire/Fire";
 import Blogs from './components/Blog/Blogs';
 // import Project from "./components/Project/Project";
 import Error from './components/Error/Error';
-import Home2 from './components/Home2/Home';
 
 import Projects from './components/Projects/Projects';
 const App = () => {
@@ -21,7 +20,7 @@ const App = () => {
       <Routes>
           <Route exact path="/" element={<Home />} />
 
-          <Route exact path="/home2" element={<Home2 />} />
+          {/* <Route exact path="/home2" element={<Home2 />} /> */}
           <Route path="*" element={<Error />} />
           {/* <Route exact path="/Contact" element={<Contact />} /> */}
           <Route exact path="/Fire" element={<Fire />} />
