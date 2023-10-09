@@ -15,7 +15,8 @@ const Error = () => {
                     <div class="error-page">
                         <div>
                             <h1 className='special' data-h1="404">404</h1>
-                            <h1 className='special'  style={{fontSize: '80px', marginTop: '-70px'}} data-h1="NOT FOUND">NOT FOUND</h1>
+                            <h1 className='special' style={{fontSize: '80px', marginTop: '-70px'}} data-h1="NOT">NOT</h1>
+                            <h1 className='special' style={{fontSize: '80px', marginTop: '-50px'}} data-h1="FOUND">FOUND</h1>
                         </div>
                         </div>
                     <div id="particles-js"></div>
