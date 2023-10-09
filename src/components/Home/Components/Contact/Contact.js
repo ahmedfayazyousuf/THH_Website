@@ -50,11 +50,29 @@ const Contact = () => {
             //     Message:Content
             // })
             // document.getElementById('error').innerHTML.style.color = 'green';
-            document.getElementsByClassName("error")[0].style.color = 'green';
+            document.getElementsByClassName("error")[0].style.color = 'yellow';
             document.getElementById('error').innerHTML = "Success! We will get back to you soon!";
         }
         
     }
+
+    const handleSubmit = (event) => {
+        // Prevent the default form submission behavior, which refreshes the page
+        event.preventDefault();
+
+        document.getElementById('name').value = ""
+        document.getElementById('email').value = ""
+        document.getElementById('subject').value = ""
+        document.getElementById('message').value = ""
+
+    
+        // You can access form data from the 'formData' state
+        // Perform your form processing or API call here
+    
+        // For example, you can log the form data
+        // console.log(formData);
+      };
+    
 
     return (
         <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
@@ -66,7 +84,7 @@ const Contact = () => {
                 </div>
 
                 <div className='contactForm'>
-                    <form>
+                    <form onSubmit={handleSubmit}>
 
                     <TextAnim  Body={
                             <div > 
@@ -106,10 +124,8 @@ const Contact = () => {
 
 
 
-                        
-                        <div>
-                            <p id='error' className="error" style={{color:"white", marginBottom: '-17px', fontWeight: '900', fontSize: '11px'}}></p>
-                        </div>
+                        <p id='error' className='error' style={{color: 'red', width: '100%',marginBottom:'-1px', textAlign: 'center', fontSize: '12px', marginTop: '-7px', height: '15px'}}> </p>
+                       
                         
                         
 
@@ -118,6 +134,8 @@ const Contact = () => {
                                 <button className="buttonDefault" type='submit' onClick={contact}>Submit</button>                            
                             </div>
                         }  />
+
+                        
 
                         <TextAnim  Body={
                             <div className='BelowContactPack'>
