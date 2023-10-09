@@ -700,11 +700,9 @@ height: 60px;
 
 }
 
-
 @media screen and (max-width: 730px) {
-
   .NotFound{
     font-size: 30px;
-  margin-top: -40px;
+    margin-top: -40px;
   }
 }
