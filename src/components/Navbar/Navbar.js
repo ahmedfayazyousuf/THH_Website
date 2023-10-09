@@ -15,9 +15,9 @@ function App() {
 
   return (
     <div style={{zIndex: '1000000000000000000001'}}>
-      <div style={{top: '0px', left: '-20px', height: '90px', width: '180px', backgroundColor: 'black', position: 'fixed', zIndex: '10000000000000000000000000000', opacity: '0.5',boxShadow: '0px 1px 5px #00f526', transform: 'skew(-30deg)'}}></div>
+      <div style={{top: '0px', left: '-20px', height: '90px', width: '180px', backgroundColor: 'black', position: 'fixed', zIndex: '1000000000', opacity: '0.5',boxShadow: '0px 1px 5px #00f526', transform: 'skew(-30deg)'}}></div>
       <NavLink className="nav-link" to="/">
-        <img alt='thhlogo' style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000000000000000000000000', position: 'fixed'}} src={thhwhite}/>
+        <img alt='thhlogo' style={{width: '120px', top: '10px', left: '10px', zIndex: '1000000000', position: 'fixed'}} src={thhwhite}/>
       </NavLink>
       
 
@@ -25,13 +25,13 @@ function App() {
         <div className="menu-container" onClick={toggleMenu} id="toggle"  style={{zIndex: '1000000000000000000001'}}>
         {/* eslint-disable-next-line */}
           <a href="#" className="menu"  style={{zIndex: '1000000000000000000001'}}>
-            <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`} aria-hidden="true"  style={{zIndex: '101'}}></i>
+            <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'}`} aria-hidden="true"  style={{zIndex: '100000000000'}}></i>
           </a>
         </div>
       </div>
 
-      <div className={`overlay ${menuOpen ? 'open' : ''}`} id="overlay" style={{zIndex: '100', backgroundColor: 'black'}}>
-        <nav className="overlay-menu">
+      <div className={`overlay ${menuOpen ? 'open' : ''}` } id="overlay" style={{zIndex: '1000000000', backgroundColor: 'black'}}>
+        <nav className="overlay-menu" style={{}}>
           <ul>
             <li><NavLink className="nav-link" to="/" style={{fontWeight: '600'}}> Home</NavLink></li>
             <li><NavLink className="nav-link" to="/Fire" style={{fontWeight: '600'}}>Fire</NavLink></li>
