@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from "react-router-dom";
-import thhwhite from '../1_Assets/thhwhite.png';
+import thhwhite from './../1_Assets/Images/thhwhite.png';
 import './Navbar.scss';
 // import $ from "jquery"
 import React, { useState } from 'react';

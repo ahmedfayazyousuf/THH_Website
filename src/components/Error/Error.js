@@ -1,30 +1,29 @@
 // import { useEffect } from "react";
 import React from 'react';
 // import { NavLink } from 'react-router-dom';
-import thhblack from '../1_Assets/thhblack.png';
+// import thhwhite from './../1_Assets/Images/thhwhite.png';
+import './boom.scss'
+import { NavLink } from 'react-router-dom';
+// import './button.css'
 
 const Error = () => { 
-    // useEffect(() =>{
-    //     document.getElementById('navigator').style.opacity = 0;
-    //     document.getElementById('navigator').style.display = 'none';
-    // },[])
-    
 
     return (
         <>
-            <div className="main">
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100vw', flexDirection: 'column'}}>
                 <div className="form-items">
-                    <div style={{justifyContent: 'center', alignItems: 'center'}}>
-                        <img id='head' style={{width: '10%'}} src={thhblack} alt="Nissan Laptop Cover"/>
-                    </div>
-                    
-                    <h1 style={{fontWeight:'1000', fontSize: '60px'}}>404 Not Found</h1>
-                    {/* <NavLink to="/">
-                        <button>
-                            Home
-                        </button>
-                    </NavLink> */}
+                    <div class="error-page">
+                        <div>
+                            <h1 className='special' data-h1="404">404</h1>
+                            <h1 className='special'  style={{fontSize: '80px', marginTop: '-70px'}} data-h1="NOT FOUND">NOT FOUND</h1>
+                        </div>
+                        </div>
+                    <div id="particles-js"></div>
                 </div>
+
+                <NavLink  style={{zIndex: '100000000000000000000000000000000'}} to="/">
+                    <button class="buttonDefault" style={{height: '45px', width: '200px', zIndex: '100000000000000000000000000000000'}}>Home</button>
+                </NavLink>
             </div>
         </>
     )
