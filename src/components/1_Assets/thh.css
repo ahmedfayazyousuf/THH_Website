@@ -590,10 +590,11 @@ height: 60px;
 
 .AboutImageDiv{
   display: flex;
-
   width: 50%;
   justify-content: center;
   /* background-color: red; */
+  margin-right: 100px;
+  padding: 20px;
   align-items: center;
   flex-direction: column;
 }
@@ -660,6 +661,7 @@ height: 60px;
   .AboutImageDiv{
     /* height: 100%;   */
     width: 100%;
+    margin-right: 0px;
     padding: 20px;
   }
 
