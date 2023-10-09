@@ -12,14 +12,17 @@ const Error = () => {
         <>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100vw', flexDirection: 'column'}}>
                 <div className="form-items">
-                    <div class="error-page">
+                    <div class="error-page" style={{display: 'flex', flexDirection: 'column'}}>
                         <div>
                             <h1 className='special' data-h1="404">404</h1>
-                            <h1 className='special' style={{fontSize: '80px', marginTop: '-70px'}} data-h1="NOT">NOT</h1>
-                            <h1 className='special' style={{fontSize: '80px', marginTop: '-50px'}} data-h1="FOUND">FOUND</h1>
+                            {/* <h1 className='special' style={{fontSize: '80px', marginTop: '-70px'}} data-h1="NOT">NOT</h1>
+                            <h1 className='special' style={{fontSize: '80px', marginTop: '-50px'}} data-h1="FOUND">FOUND</h1> */}
                         </div>
-                        </div>
+                        <p className='NotFound'>NOT FOUND</p>
+                    </div>
+
                     <div id="particles-js"></div>
+
                 </div>
 
                 <NavLink  style={{zIndex: '100000000000000000000000000000000'}} to="/">

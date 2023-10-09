@@ -648,12 +648,18 @@ height: 60px;
   margin-left: 20px; 
 }
 
+.NotFound{
+  font-size: 70px;
+  margin-top: -90px;
+}
+
 @media screen and (max-width: 1045px) {
 
   .texttextdiv{
   padding: 0px;
   margin-left: 0px; 
   }
+
   .mainAbout{
     flex-direction: column;
   }
@@ -692,4 +698,13 @@ height: 60px;
     margin-left: 80px;
   }
 
+}
+
+
+@media screen and (max-width: 730px) {
+
+  .NotFound{
+    font-size: 30px;
+  margin-top: -40px;
+  }
 }
