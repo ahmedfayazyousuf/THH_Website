@@ -44,7 +44,7 @@ const Home = () => {
     return (
         <div style={{width: '100vw', height: '100%'}}>
 
-            <div className="cursor" style={{transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`, zIndex: '1000000000000000000000000000'}} />
+            {/* <div className="cursor" style={{transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`, zIndex: '1000000000000000000000000000',}} /> */}
 
             <div style={{background: 'black', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Hero />

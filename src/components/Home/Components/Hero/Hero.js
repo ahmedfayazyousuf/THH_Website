@@ -1,4 +1,5 @@
-import {React,useEffect} from 'react';
+import { useMotionValue } from "framer-motion";
+import React, { useState, useEffect} from "react";
 import '../../../1_Assets/thh.css';
 import NissanXTrail from './../../../1_Assets/Images/Projects/NissanXTrail.jpg';
 import Geely from './../../../1_Assets/Images/Projects/Geely.jpg';
@@ -19,6 +20,38 @@ import { useNavigate } from "react-router-dom";
 export default function Hero(){
     const navigate = useNavigate();
 
+
+
+    const cursorX = useMotionValue(-100);
+    const cursorY = useMotionValue(-100);
+    // eslint-disable-next-line
+    const springConfig = { damping: 25, stiffness: 700 };
+
+    useEffect(() => {
+        // eslint-disable-next-line
+        const moveCursor = (e) => {
+        cursorX.set(e.clientX - 16)
+        cursorY.set(e.clientY - 16)
+        };
+        // eslint-disable-next-line
+    }, [])
+    
+    const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 })
+    
+    useEffect(() => {
+        const moveCursor = (e) => {
+            const x = e.clientX - 16
+            const y = e.clientY - 16
+            setCursorXY({ x, y })
+        }
+
+        window.addEventListener('mousemove', moveCursor)
+        return () => {
+        window.removeEventListener('mousemove', moveCursor)
+        }
+    }, [])
+
+
     useEffect(()=>{
         document.getElementById('next').onclick = function(){
             let lists = document.querySelectorAll('.item');
@@ -30,8 +63,32 @@ export default function Hero(){
         }
           
     },[])
+
+
+    const [isHovering, setIsHovering] = useState(false);
+
+    // Event handler for when the mouse enters the div
+    const handleMouseEnter = () => {
+        setIsHovering(true);
+    };
+
+    // Event handler for when the mouse leaves the div
+    const handleMouseLeave = () => {
+        setIsHovering(false);
+    };
+
+    // Style object to conditionally set the width and height
+    const cursorStyle = {
+        width: isHovering ? '60px' : '30px',
+        height: isHovering ? '60px' : '30px',
+    };
+
     return(
         <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative'}}>
+
+
+            <div className="cursor" style={{transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`, zIndex: '1000000000000000000000000000',width: isHovering ? '60px' : '30px',height: isHovering ? '60px' : '30px', transition: isHovering ? 'width 0.5s, height 0.5s' : 'width 0.5s, height 0.5s'}} />
+
             <div id="slideHero">
                 <div class="item" style={{backgroundImage: `url('${NissanXTrail}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}>
@@ -40,13 +97,27 @@ export default function Hero(){
                         <button className='buttonDefault' onClick= {()=> navigate("/projects/1")} style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
+
+                {/* <div className="cursor" style={{transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`, zIndex: '1000000000000000000000000000'}} /> */}
+
+
+
+
                 <div class="item" style={{backgroundImage: `url('${Geely}')`}}>
-                    <div class="content" style={{zIndex:'1000000000000000'}}>
-                        <div class="name">GEELY X AGMC – UAE Showroom Launch 2023</div>
+                    <div id="HoverCursor" class="content HoverCursor" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{zIndex:'1000000000000000'}}>
+                        {isHovering ? 'Hovering!' : 'Not Hovering'}
+                        <div class="name HoverCursor">GEELY AGMC – UAE Showroom Launch 2023</div>
                         <div class="des">Navigating the Future of Mobility</div>
                         <button onClick= {()=> navigate("/projects/2")} className='buttonDefault' style={{width: '120px', height: '50px'}}>Read more</button>
                     </div>
                 </div>
+
+
+
+
+
+
+
                 <div class="item" style={{backgroundImage: `url('${Huawei}')`}}>
                     <div class="content" style={{zIndex:'1000000000000000'}}>
                         <div class="name">Huawei – Comic Con 2023</div>

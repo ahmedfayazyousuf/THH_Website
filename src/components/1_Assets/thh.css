@@ -757,9 +757,20 @@ body .cursor__ball circle {
   top: 0;
   width: 30px;
   height: 30px;
-  border-radius: 16px;
+  border-radius: 100px;
   background-color: black;
   transform: translateY(-50%);
   mix-blend-mode: difference;
   background-color: white;
+  /* transition: 1s; */
+}
+
+.HoverCursor:hover{
+  background: 'blue';
+}
+
+
+.cursor-hovered {
+  width: 60px; /* Set the width when hovering */
+  height: 60px; /* Set the height when hovering */
 }
