@@ -465,7 +465,8 @@ border:1px solid #00f526;
 transition: 0.5s;
 background-color: transparent;
 }.buttons button:hover{
-border:1px solid white;
+border:1px solid #00f526;
+background-color: white;
 color: black;
 }
 
