@@ -26,7 +26,7 @@ const Fire = () => {
                             </div>
                         }  />
 
-                        <TextAnim Styles={{width:'100%',display:"flex",justifyContent:'flex-end',alignItems:'flex-end', backgroundColor: 'black', marginTop: '-30px', marginBottom: '-20px'}}  Body={
+                        <TextAnim Styles={{width:'100%',display:"flex",justifyContent:'flex-end',alignItems:'flex-end', backgroundColor: 'black'}} Body={
                             <img style={{width:'150px',display: window.innerWidth>= 750 ? 'none' : 'initial'}} src={FireImg} alt="Fire"/>
                         }  />
 
@@ -42,7 +42,7 @@ const Fire = () => {
                 </div>
                 
                 
-                <div id='DesktView' style={{height:'100%', width: '50%', backgroundColor: 'red', display: window.innerWidth<= 750 ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div id='DesktView' style={{height:'100%', width: '50%', display: window.innerWidth<= 750 ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <TextAnim  Body={
                             <img style={{marginLeft:'15px',  marginTop: '5px', marginBottom: '5px'}} src={FireImg} alt="Fire"/>
                     }  />
