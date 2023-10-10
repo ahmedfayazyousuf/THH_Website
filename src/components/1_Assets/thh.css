@@ -796,14 +796,14 @@ body .cursor__ball circle {
 /*  IMPORTANT CODE BELOW */
 
 .slideTrackTeam {
-  width: calc(150px * 24);
+  width: calc(350px * 24);
   display: flex;
-  animation: scroll  50s linear infinite;
+  animation: scroll  60s linear infinite;
   justify-content: space-between;
 }
 
 .slideTrackTeam:hover{
-  animation: scroll  50s linear infinite paused;
+  animation: scroll  60s linear infinite paused;
 }
 
 

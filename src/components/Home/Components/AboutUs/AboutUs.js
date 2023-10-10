@@ -31,26 +31,24 @@ const AboutUs = () => {
 
                     <div className='texttextdiv'>
                         <TextAnim Body={
-                        <h1 className='special' style={{marginBottom: '20px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
+                        <h1 className='special' style={{marginBottom: '2px'}}>ABOUT <span className='special' style={{color: '#00f526'}}>US</span></h1>
                         }  />
 
                         <TextAnim Body={
                             <div>
-                                <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>Experiential: Like never before</p>
-                                <p style={{fontSize: '14px'}}>The Hanging House is everything experiential. We take creative action and prope audiences into a speechless affair. We bring your brand home, sparking trust, meaning, and change; Blending novelty and precision to transform moments into memories.</p>
-                                <p style={{marginTop: '-10px', marginBottom: '15px', fontSize: '14px'}}>Whether it’s through live activations, or virtual solutions, we tell solutions, we tell stories through the power of human interaction.</p>
+                                <p>The Hanging House is an experiential agency where tech and creativity share the same home. We catalyse powerful human connections through immersive experiences that leave a lasting impression, opening uncharted portals for brands and their audiences.  Our goal is clear: harmonize creativity and technology seamlessly to craft experiences that are disruptive, innovative, and above all, human. At our core, authenticity, creativity, innovation, collaboration, and flawless execution are not mere catchphrases; they're our guiding principles. They dictate our daily actions, navigate our ventures, and fine-tune our approach.</p>
                             </div>
                         }  />
                             
 
-                        <TextAnim Body={
+                        {/* <TextAnim Body={
                         <div>
                             <p style={{fontSize: '18px', fontWeight: '900', marginBottom: '2px'}}>We use our imagination</p>
                             <p style={{fontSize: '14px'}}>We’re the radical bunch on the block – a diverse team of storytellers, artists, wordsmiths and designers, untainted by the noise, birthing concepts you may have seen in outer space.</p>
                             <p style={{marginTop: '-10px', fontSize: '14px'}}>Our designs are brought to life by the THH lab wizards – engineers, architects, planners and fabricators putting their heads together, animating the wildest ideas into reality.</p>
                             <p style={{marginTop: '-10px', fontSize: '14px'}}>From ideation to invention, all the magic happens under the same roof.</p>
                         </div>
-                        }  />   
+                        }  />    */}
                     </div>
                 </div>
 
