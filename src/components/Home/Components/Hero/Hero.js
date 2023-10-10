@@ -78,6 +78,7 @@ export default function Hero(){
     };
 
     // Style object to conditionally set the width and height
+    // eslint-disable-next-line
     const cursorStyle = {
         width: isHovering ? '60px' : '30px',
         height: isHovering ? '60px' : '30px',

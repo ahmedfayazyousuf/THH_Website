@@ -1,6 +1,6 @@
 import React from 'react';
-import FireImg from './../../../1_Assets/Images/Fire/fire.png';
-import TextAnim from '../TextAnim.jsx';
+// import FireImg from './../../../1_Assets/Images/Fire/fire.png';
+// import TextAnim from '../TextAnim.jsx';
 
 const Team = () => { 
 

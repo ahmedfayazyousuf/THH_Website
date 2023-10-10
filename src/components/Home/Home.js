@@ -26,7 +26,7 @@ const Home = () => {
         };
         // eslint-disable-next-line
     }, [])
-    
+    // eslint-disable-next-line
     const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 })
     
     useEffect(() => {
@@ -77,11 +77,16 @@ const Home = () => {
 
             <div class="hover-effect4" style={{position: 'fixed', bottom: '0', right: '0', display: 'flex', flexDirection: 'column', marginRight: '10px', zIndex: '10000000'}}>
                 <ul style={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
-                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Youtube"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
+                    {/* eslint-disable-next-line */}
+                    <li><a href="https://www.facebook.com/thehanginghouse" target='_blank'  style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    {/* eslint-disable-next-line */}
+                    <li><a href="https://twitter.com/thehanginghouse" target='_blank' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    {/* eslint-disable-next-line */}
+                    <li><a href="https://www.instagram.com/thehanginghouse/" target='_blank' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    {/* eslint-disable-next-line */}
+                    <li><a href="https://www.youtube.com/@thehanginghouse8082" target='_blank' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                    {/* eslint-disable-next-line */}
+                    <li><a href="https://www.linkedin.com/company/thehanginghouse" target='_blank' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
 
