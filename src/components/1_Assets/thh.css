@@ -160,13 +160,13 @@ color: black;
 /* CLIENTS SLIDER  */
 
 .slider {
-height: 100px;
-position: relative;
-width: 100%;
+  height: 140px;
+  position: relative;
+  width: 100vw;
 
-display: grid;
-place-items: center;
-overflow: hidden;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
 }
 
 .slider::before{
@@ -181,23 +181,21 @@ transform:rotateZ(180deg);
 
 /*  IMPORTANT CODE BELOW */
 
-.slide-track {
-width: calc(150px * 20);
-display: flex;
-animation: scroll  50s linear infinite;
-justify-content: space-between;
-}
 
-.slide-track2 {
-width: calc(150px * 15);
+
+
+
+.slide-track {
+width: calc(150px * 24);
 display: flex;
-animation: scroll2 15s linear infinite;
+animation: scroll  80s linear infinite;
 justify-content: space-between;
 }
 
 .slide {
-width: 150px;
-height: 110px;
+width: 240px;
+height: 160px;
+/* background-color: red; */
 
 display: grid;
 place-items: center;
@@ -229,10 +227,6 @@ transform: translateX(calc(-150px * 5));
 @media screen and (max-width: 768px) {
 .slide-track {
 width: calc(80px * 20);
-}
-
-.slide-track2 {
-width: calc(80px * 15);
 }
 
 .slide {
@@ -774,4 +768,124 @@ body .cursor__ball circle {
 .cursor-hovered {
   width: 60px; /* Set the width when hovering */
   height: 60px; /* Set the height when hovering */
+}
+
+
+
+/* Team Carousel  */
+.mainSliderTeam {
+  height: 600px;
+  position: relative;
+  width: 100vw;
+
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.mainSliderTeam::before{
+  left:0;
+  top:0;
+}
+.mainSliderTeam::after{
+  right:0;
+  top:0;
+  transform:rotateZ(180deg);
+}
+
+/*  IMPORTANT CODE BELOW */
+
+.slideTrackTeam {
+  width: calc(150px * 24);
+  display: flex;
+  animation: scroll  50s linear infinite;
+  justify-content: space-between;
+}
+
+.slideTrackTeam:hover{
+  animation: scroll  50s linear infinite paused;
+}
+
+
+.slideTeam {
+  width: 350px;
+  height: 350px;
+  display: grid;
+  place-items: center;
+  transition:0.5s;
+  cursor:pointer;
+  background-size:cover;
+  background-repeat: noRepeat;
+  background-position: center center;
+}
+
+.adithya{
+  background-image: url('./Images/TeamPhotos/Adithya/Adi1.png');
+}
+.adithya:hover{
+  background-image: url('./Images/TeamPhotos/Adithya/Adi2.png');
+}
+
+.anam{
+  background-image: url('./Images/TeamPhotos/Anam/Anam1.png');
+}
+.anam:hover{
+  background-image: url('./Images/TeamPhotos/Anam/Anam2.png');
+}
+
+.bilal{
+  background-image: url('./Images/TeamPhotos/Bilal/Bilal1.png');
+}
+.bilal:hover{
+  background-image: url('./Images/TeamPhotos/Bilal/Bilal2.png');
+}
+
+.indrajith{
+  background-image: url('./Images/TeamPhotos/Indrajith/Ind1.png');
+}
+.indrajith:hover{
+  background-image: url('./Images/TeamPhotos/Indrajith/Ind2.png');
+}
+
+.leroy{
+  background-image: url('./Images/TeamPhotos/Leroy/leroy1.png');
+}
+.leroy:hover{
+  background-image: url('./Images/TeamPhotos/Leroy/leroy2.png');
+}
+
+.zaid{
+  background-image: url('./Images/TeamPhotos/Zaid/Zaid1.png');
+}
+.zaid:hover{
+  background-image: url('./Images/TeamPhotos/Zaid/Zaid2.png');
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-150px * 10));
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-150px * 5));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slideTrackTeam {
+    width: calc(80px * 20);
+  }
+
+  .slideTeam {
+    width: 80px;
+  }
 }

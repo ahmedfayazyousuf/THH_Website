@@ -2,6 +2,7 @@
 import '../1_Assets/thh.css';
 import ContactForm from './Components/Contact/Contact'
 import BlogGallery from './Components/BlogGallery/BlogGallery'
+import Team from './Components/Team/Team'
 import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
 import FireSection from './Components/FireSection/FireSection';
 import AboutUs from './Components/AboutUs/AboutUs';
@@ -60,6 +61,10 @@ const Home = () => {
 
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <BlogGallery/>
+            </div>
+
+            <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <Team/>
             </div>
 
             <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
