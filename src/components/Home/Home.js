@@ -75,6 +75,16 @@ const Home = () => {
                 <ContactForm/>
             </div>
 
+            <div class="hover-effect4" style={{position: 'fixed', bottom: '0', right: '0', display: 'flex', flexDirection: 'column', marginRight: '10px', zIndex: '10000000'}}>
+                <ul style={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
+                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
+                </ul>
+            </div>
+
             
         </div>
     )
