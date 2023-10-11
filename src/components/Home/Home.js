@@ -7,7 +7,7 @@ import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
 import FireSection from './Components/FireSection/FireSection';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Hero from './Components/Hero/Hero';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import GoogleMapWidget from './Components/GoogleMap/GoogleMap';
 
 import { useMotionValue } from "framer-motion";
 import React, { useState, useEffect} from "react";
@@ -18,17 +18,7 @@ const Home = () => {
     const cursorY = useMotionValue(-100);
     // eslint-disable-next-line
     const springConfig = { damping: 25, stiffness: 700 };
-    // GOOGLE MAPS START 
-    const mapContainerStyle = {
-        width: '400px',
-        height: '400px',
-      };
-    
-      const center = {
-        lat: 24.967260, // Default latitude
-        lng: 55.194097, // Default longitude
-      };
-    //   GOOGLE MAPS END
+  
 
     useEffect(() => {
         // eslint-disable-next-line
@@ -87,19 +77,11 @@ const Home = () => {
                 <ContactForm/>
             </div>
 
-            <div class="hover-effect4">
-                <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
-                    <GoogleMap
-                        mapContainerStyle={mapContainerStyle}
-                        center={center}
-                        zoom={10} // Adjust the initial zoom level as needed
-                    >
-                        <Marker
-                        position={center}
-                        />
-                    </GoogleMap>
-                </LoadScript>
+            <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <GoogleMapWidget/>
             </div>
+
+
 
             <div class="hover-effect4" style={{position: 'fixed', bottom: '0', right: '0', display: 'flex', flexDirection: 'column', marginRight: '10px', zIndex: '10000000'}}>
                 <ul style={{display: 'flex', flexDirection: 'column', gap: '10px'}}>
