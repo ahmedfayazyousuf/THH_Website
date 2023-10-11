@@ -93,7 +93,7 @@ const Contact = () => {
 
                     <TextAnim  Body={
                             <div > 
-                               <h1 className='special' style={{alignSelf: 'start', fontWeight: '900', color: 'white', fontSize: '35px'}}>GET IN <span className='special' style={{color:'#00F526'}}>TOUCH</span></h1>
+                               <h1 className='special' style={{alignSelf: 'start', color: 'white', fontSize: '35px'}}>GET IN <span className='special' style={{color:'#00F526'}}>TOUCH</span></h1>
                             </div>
                         }  />
 
@@ -148,26 +148,26 @@ const Contact = () => {
                                     <p style={{ fontSize: '12px', marginTop: '10px' }}>
                                         UAE: &nbsp;
                                         <span>
-                                            <a style={{ color: 'white', textDecoration: 'none', fontWeight: '900'}} href="tel:97142368844">+971 4 236 8844</a>
+                                            <a style={{ textDecorationLine: 'underline', textDecorationThickness: '1px', color: 'white'}} href="tel:97142368844">+971 4 236 8844</a>
                                         </span>
                                         &nbsp; | KSA: &nbsp;
                                         <span>
-                                            <a style={{ color: 'white', textDecoration: 'none', fontWeight: '900'}} href="tel:966563655835">+966 56 365 5835</a>
+                                            <a style={{ textDecorationLine: 'underline', textDecorationThickness: '1px', color: 'white'}} href="tel:966563655835">+966 56 365 5835</a>
                                         </span>
                                     </p>
 
                                     <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
 
-                                    <a style={{textDecoration: 'none', fontWeight: '900'}} href="mailto:welcome@thehanginghouse.com">
-                                        <p style={{fontSize: '12px'}}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
+                                    <a style={{textDecorationLine: 'underline', textDecorationThickness: '1px', color: 'white'}} href="mailto:welcome@thehanginghouse.com">
+                                        <p style={{fontSize: '12px' }}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px', }}>@</span>thehanginghouse.com</p>
                                     </a>
                                     <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
 
                                     <p style={{fontSize: '12px'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
                                     <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>Where the house hangs</p>
 
-                                    <a style={{textDecoration: 'none', fontWeight: '900'}} href="mailto:joinus@thehanginghouse.com">
-                                        <p style={{fontSize: '12px'}}>joinus<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
+                                    <a style={{textDecorationLine: 'underline', textDecorationThickness: '1px', color: 'white'}} href="mailto:joinus@thehanginghouse.com">
+                                        <p style={{fontSize: '12px', }}>joinus<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px', }}>@</span>thehanginghouse.com</p>
                                     </a>
                                     <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To become a part of the house!</p>
 
