@@ -68,7 +68,7 @@ const BlogGallery = () => {
                     <img onClick={()=> navigate("/blogs/7")} src={fitness} alt="img" />
                 </div>
                 <div  className="image">
-                    <img onClick={()=> navigate("/blogs/8")} src="https://images.unsplash.com/photo-1460411794035-42aac080490a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFic3RyYWN0JTIwJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
+                    <img onClick={()=> navigate("/blogs/8")} src={summer} alt="img" />
                 </div>
 
                 <div  className="image">
@@ -76,7 +76,7 @@ const BlogGallery = () => {
                 </div>  
        
                 <div className="image ">
-                    <img onClick={()=> navigate("/blogs/10")} src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjAlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img" />
+                    <img onClick={()=> navigate("/blogs/10")} src={aurdino} alt="img" />
                 </div>
 
                 
