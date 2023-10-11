@@ -1,19 +1,19 @@
 import React from 'react';
 import TextAnim from '../TextAnim.jsx';
 
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+
 
 const Contact = () => { 
     // GOOGLE MAPS START 
-    const mapContainerStyle = {
-        width: '400px',
-        height: '400px',
-      };
+    // const mapContainerStyle = {
+    //     width: '400px',
+    //     height: '400px',
+    //   };
     
-      const center = {
-        lat: 24.967260, // Default latitude
-        lng: 55.194097, // Default longitude
-      };
+    //   const center = {
+    //     lat: 24.967260, // Default latitude
+    //     lng: 55.194097, // Default longitude
+    //   };
     //   GOOGLE MAPS END
 
     function contact (){
@@ -178,20 +178,7 @@ const Contact = () => {
                             </div> */}
                         </div>
                         }  />
-
-<div class="hover-effect4">
-                                <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
-                                    <GoogleMap
-                                        mapContainerStyle={mapContainerStyle}
-                                        center={center}
-                                        zoom={10} // Adjust the initial zoom level as needed
-                                    >
-                                        <Marker
-                                        position={center}
-                                        />
-                                    </GoogleMap>
-                                </LoadScript>
-                            </div>
+                        
                        
 
                         
