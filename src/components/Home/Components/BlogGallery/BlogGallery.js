@@ -2,6 +2,21 @@ import React, { useState } from 'react';
 // import contactImg from './../../../1_Assets/Images/Contact/contactImg.avif';
 import { useNavigate } from "react-router-dom";
 
+import aurdino from '../../../1_Assets/Images/Blogs/landscape images/arduino.png'
+import contactless from '../../../1_Assets/Images/Blogs/landscape images/contactless activation.png'
+import harness from '../../../1_Assets/Images/Blogs/landscape images/harness brain power.png'
+import inside from '../../../1_Assets/Images/Blogs/landscape images/inside the activation.png'
+import premier from '../../../1_Assets/Images/Blogs/landscape images/what happens in movie premier.png'
+
+import coachella from '../../../1_Assets/Images/Blogs/portrait images/Coachella.png'
+import fitness from '../../../1_Assets/Images/Blogs/portrait images/Power of virtual experiences.png'
+import jobs from '../../../1_Assets/Images/Blogs/portrait images/fitness.png'
+import power from '../../../1_Assets/Images/Blogs/portrait images/jobs of future.png'
+import summer from '../../../1_Assets/Images/Blogs/portrait images/summer activations.png'
+
+
+
+
 
 const BlogGallery = () => { 
 
@@ -30,40 +45,44 @@ const BlogGallery = () => {
 
             <section className="gallery" style={{background: 'black', overflowY: 'scroll'}}>
                 <div className="image">
-                    <img onClick={()=> navigate("/blogs/1")} src="https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="img" />
+                    <img onClick={()=> navigate("/blogs/1")} src={coachella} alt="img" />
                 </div>
                 <div className="image">
-                    <img onClick={()=> navigate("/blogs/2")} src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="img" />
+                    <img onClick={()=> navigate("/blogs/3")} src={power} alt="img" />
                 </div>
                 <div className="image">
-                    <img onClick={()=> navigate("/blogs/3")} src="https://images.unsplash.com/photo-1505178041309-ad46d2e4207b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="img" />
+                    <img onClick={()=> navigate("/blogs/2")} src={contactless} alt="img" />
+                </div>
+
+  
+                <div className="image">
+                    <img onClick={()=> navigate("/blogs/4")} src={jobs} alt="img" />
                 </div>
                 <div className="image">
-                    <img onClick={()=> navigate("/blogs/4")} src="https://images.unsplash.com/photo-1497114046243-1154db4f4abf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80" alt="img" />
+                    <img onClick={()=> navigate("/blogs/5")} src={inside} alt="img" />
                 </div>
                 <div className="image">
-                    <img onClick={()=> navigate("/blogs/5")} src="https://images.unsplash.com/photo-1573655349936-de6bed86f839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGFic3RyYWN0JTIwJTIweWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
+                    <img onClick={()=> navigate("/blogs/6")} src={harness} alt="img" />
                 </div>
-                <div style={{display:'none'}} className="image batch1">
-                    <img onClick={()=> navigate("/blogs/6")} src="https://images.unsplash.com/photo-1541356665065-22676f35dd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="img" />
+                <div   className="image">
+                    <img onClick={()=> navigate("/blogs/7")} src={fitness} alt="img" />
                 </div>
-                <div style={{display:'none'}}  className="image batch1">
-                    <img onClick={()=> navigate("/blogs/7")} src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjAlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img" />
-                </div>
-                <div style={{display:'none'}}  className="image batch1">
+                <div  className="image">
                     <img onClick={()=> navigate("/blogs/8")} src="https://images.unsplash.com/photo-1460411794035-42aac080490a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFic3RyYWN0JTIwJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
                 </div>
-                <div style={{display:'none'}}  className="image batch1">
-                    <img onClick={()=> navigate("/blogs/9")} src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFic3RyYWN0JTIwJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img" />
-                </div>
-                <div style={{display:'none'}}  className="image batch1">
+
+                <div  className="image">
+                    <img onClick={()=> navigate("/blogs/9")} src={premier} alt="img" />
+                </div>  
+       
+                <div className="image ">
                     <img onClick={()=> navigate("/blogs/10")} src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjAlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img" />
                 </div>
 
                 
             </section>
 
-            <button onClick= {()=> seeMore()} className='buttonDefault' style={{width: '120px', height: '50px',alignSelf:'center'}}>See more</button>
+            {/* <button onClick= {()=> seeMore()} className='buttonDefault' style={{width: '120px', height: '50px',alignSelf:'center'}}>See more</button> */}
 
 
                 
