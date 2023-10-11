@@ -558,7 +558,7 @@ margin-top: -10px;
   flex-direction: row;
   justify-content: flex-end;
   margin: 0;
-  height: 300px;
+  height: 200px;
   width: 30%;
   margin-right: 10px;
   margin-top: 10px;
@@ -571,8 +571,8 @@ margin-top: -10px;
 }
 
 .ContactPackSocials:hover{
-  opacity: 0.6;
-  transition: 1s;
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1000px) {

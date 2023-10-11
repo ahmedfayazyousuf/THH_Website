@@ -161,6 +161,7 @@ const Contact = () => {
                                     <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
                                 </div>
 
+                                {/* eslint-disable-next-line */}
                                 <a target="_blank" className='ContactPackSocials' href='https://maps.app.goo.gl/oDoPDHVSqJ2Z53Ja9'>
                                    
                                 </a>

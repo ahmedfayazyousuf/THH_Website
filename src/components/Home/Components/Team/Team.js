@@ -32,7 +32,7 @@ const Team = () => {
 
                     <div class="slideTeam indrajith">
                         <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', opacity: '0.7'}}>
-                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith Kuttiyil</p>
+                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith K.</p>
                             </div>  
                     </div>
                     
@@ -108,7 +108,7 @@ const Team = () => {
 
                     <div class="slideTeam indrajith">
                         <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', opacity: '0.7'}}>
-                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith Kuttiyil</p>
+                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith K.</p>
                             </div>  
                     </div>
                     
@@ -146,7 +146,7 @@ const Team = () => {
 
                     <div class="slideTeam indrajith">
                         <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', opacity: '0.7'}}>
-                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith Kuttiyil</p>
+                            <p style={{color: 'black', paddingTop: '13px', fontWeight: '900'}}>Indrajith K.</p>
                         </div>  
                     </div>
                     
