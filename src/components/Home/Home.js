@@ -7,7 +7,7 @@ import ClientsCarousel from './Components/ClientsCarousel/ClientsCarousel';
 import FireSection from './Components/FireSection/FireSection';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Hero from './Components/Hero/Hero';
-import GoogleMapWidget from './Components/GoogleMap/GoogleMap';
+// import GoogleMapWidget from './Components/GoogleMap/GoogleMap';
 
 import { useMotionValue } from "framer-motion";
 import React, { useState, useEffect} from "react";
@@ -77,9 +77,9 @@ const Home = () => {
                 <ContactForm/>
             </div>
 
-            <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            {/* <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <GoogleMapWidget/>
-            </div>
+            </div> */}
 
 
 
