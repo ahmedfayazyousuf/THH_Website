@@ -824,16 +824,17 @@ body .cursor__ball circle {
 
 
 .slideTeam {
+  align-items: flex-end;
   width: 350px;
   height: 350px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  /* place-items: center; */
   transition:0.5s;
   cursor:pointer;
   background-size:cover;
   background-repeat: noRepeat;
   background-position: center center;
-  align-items: flex-end;
+  
 }
 
 .adithya{
