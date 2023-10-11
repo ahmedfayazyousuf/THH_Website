@@ -757,9 +757,9 @@ body .cursor__ball circle {
 
 
 /* CURSOR  */
-* {
+/* * {
   cursor: none;
-}
+} */
 
 .cursor {
   position: fixed;
