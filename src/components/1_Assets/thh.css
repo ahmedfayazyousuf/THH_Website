@@ -548,18 +548,31 @@ width: 100%;
 .ContactPackText{
 display: flex;
 flex-direction: column;
-width: 60%;
+width: 70%;
 padding: 10px;
 margin-top: -10px;
 }
 
 .ContactPackSocials{
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-margin: 0;
-width: 250px;
-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+  height: 300px;
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 10px;
+  background: red;
+  background-image: url('./Images/Contact/Maps.png');
+  background-size:cover;
+  background-repeat: noRepeat;
+  background-position: center center;
+  /* border-radius: 10px; */
+}
+
+.ContactPackSocials:hover{
+  opacity: 0.6;
+  transition: 1s;
 }
 
 @media screen and (max-width: 1000px) {
@@ -568,7 +581,7 @@ height: 60px;
 }
 
 .ContactPackSocials{
-  width: 100%;
+  display: none;
 }
 
 .BelowContactPack{

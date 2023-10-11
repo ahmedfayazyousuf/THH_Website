@@ -1,7 +1,6 @@
 import React from 'react';
 import TextAnim from '../TextAnim.jsx';
-
-
+// import maps from './../../../1_Assets/Images/Contact/Maps.png';
 
 const Contact = () => { 
     // GOOGLE MAPS START 
@@ -145,51 +144,43 @@ const Contact = () => {
 
                         <TextAnim  Body={
                             <div className='BelowContactPack'>
-                            <div className='ContactPackText'>
-                                <p style={{fontSize: '12px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
-                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
+                                <div className='ContactPackText'>
+                                    <p style={{fontSize: '12px', marginTop: '10px'}}>UAE: +971 4 236 8844 | KSA: +966 56 365 5835</p>
+                                    <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>No ridiculously long phone menu – promise!</p>
 
-                                <p style={{fontSize: '12px'}}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
-                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
+                                    <p style={{fontSize: '12px'}}>welcome<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
+                                    <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>It won’t end up in an inbox abyss</p>
 
-                                <p style={{fontSize: '12px'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
-                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>Where the house hangs</p>
+                                    <p style={{fontSize: '12px'}}>Office 4, Span Precast Compound, Dubai Investment Park 2, Dubai, UAE</p>
+                                    <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>Where the house hangs</p>
 
-                                <p style={{fontSize: '12px'}}>joinus<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
-                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To become a part of the house!</p>
+                                    <p style={{fontSize: '12px'}}>joinus<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
+                                    <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To become a part of the house!</p>
 
-                                <p style={{fontSize: '12px'}}>procurement<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
-                                <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
+                                    <p style={{fontSize: '12px'}}>procurement<span style={{fontFamily: 'sans-serif, Montserrat', fontSize: '10px'}}>@</span>thehanginghouse.com</p>
+                                    <p style={{marginTop: '-19px', fontSize: '10px', color: '#00f526', marginBottom: '5px'}}>To register as a vendor and receive RFQ's</p>
+                                </div>
+
+                                <a target="_blank" className='ContactPackSocials' href='https://maps.app.goo.gl/oDoPDHVSqJ2Z53Ja9'>
+                                   
+                                </a>
+                                
+                                
+                                {/* <div class="hover-effect4">
+                                    <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
+                                        <GoogleMap
+                                            mapContainerStyle={mapContainerStyle}
+                                            center={center}
+                                            zoom={10} // Adjust the initial zoom level as needed
+                                        >
+                                            <Marker
+                                            position={center}
+                                            />
+                                        </GoogleMap>
+                                    </LoadScript>
+                                </div> */}
                             </div>
-
-
-                            {/* <div class="hover-effect4">
-                                <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
-                                    <GoogleMap
-                                        mapContainerStyle={mapContainerStyle}
-                                        center={center}
-                                        zoom={10} // Adjust the initial zoom level as needed
-                                    >
-                                        <Marker
-                                        position={center}
-                                        />
-                                    </GoogleMap>
-                                </LoadScript>
-                            </div> */}
-                        </div>
                         }  />
-                        
-                       
-
-                        
-
-                        
-
-
-
-                        <div style={{backgroundColor: 'white', color: ''}}>
-
-                        </div>
                     </form>
                     
                 </div>
