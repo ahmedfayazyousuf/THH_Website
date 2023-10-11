@@ -226,11 +226,13 @@ transform: translateX(calc(-150px * 5));
 
 @media screen and (max-width: 768px) {
 .slide-track {
-width: calc(80px * 20);
+width: calc(80px * 35);
+/* background-color: red; */
 }
 
 .slide {
-width: 80px;
+width: 200px;
+padding: 20px
 }
 
 @keyframes scroll {
@@ -772,12 +774,13 @@ body .cursor__ball circle {
 
 
 
+
 /* Team Carousel  */
 .mainSliderTeam {
   height: 600px;
+  /* background-color: red; */
   position: relative;
-  width: 100vw;
-
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -817,6 +820,7 @@ body .cursor__ball circle {
   background-size:cover;
   background-repeat: noRepeat;
   background-position: center center;
+  align-items: flex-end;
 }
 
 .adithya{
@@ -884,8 +888,15 @@ body .cursor__ball circle {
   .slideTrackTeam {
     width: calc(80px * 20);
   }
-
+/* 
   .slideTeam {
-    width: 80px;
+    width: 200px;
+  } */
+
+  .slideTrackTeam {
+    width: calc(350px * 10);
+    display: flex;
+    animation: scroll  60s linear infinite;
+    justify-content: space-between;
   }
 }

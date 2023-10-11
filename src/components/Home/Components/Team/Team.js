@@ -12,104 +12,159 @@ const Team = () => {
             <div class="mainSliderTeam">
                 <div class="slideTrackTeam">
                     <div class="slideTeam adithya" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Adithya Suresh</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Adithya Suresh</p>
+                        </div>                 
                     </div>
 
                     <div class="slideTeam anam">
-                        <p style={{color: 'white', marginTop: '320px'}}>Anam Ahmed</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Anam Ahmed</p>  
+                        </div>               
                     </div>
 
                     <div class="slideTeam bilal">
-                        <p style={{color: 'white', marginTop: '320px'}}>Bilal Ahmad</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Bilal Ahmad</p>  
+    
+                        </div>
                     </div>
 
                     <div class="slideTeam indrajith">
-                        <p style={{color: 'white', marginTop: '320px'}}>Indrajith Kuttiyil</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Indrajith Kuttiyil</p>
+                            </div>  
                     </div>
                     
                     <div class="slideTeam leroy" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Leroy</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Leroy</p>
+            
+                        </div>        
                     </div>
                     
                     <div class="slideTeam zaid">
-                        <p style={{color: 'white', marginTop: '320px'}}>Zaid Akram</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Zaid Akram</p>  
+     
+                        </div>               
                     </div>
 
                     <div class="slideTeam adithya" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Adithya Suresh</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Adithya Suresh</p>
+                        </div>                 
                     </div>
 
                     <div class="slideTeam anam">
-                        <p style={{color: 'white', marginTop: '320px'}}>Anam Ahmed</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Anam Ahmed</p>          
+                        </div>
                     </div>
 
                     <div class="slideTeam bilal">
-                        <p style={{color: 'white', marginTop: '320px'}}>Bilal Ahmad</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Bilal Ahmad</p>  
+                        </div>                
                     </div>
 
                     <div class="slideTeam indrajith">
-                        <p style={{color: 'white', marginTop: '320px'}}>Indrajith Kuttiyil</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Indrajith Kuttiyil</p>
+                        </div>  
                     </div>
                     
                     <div class="slideTeam leroy" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Leroy</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Leroy</p>
+                        </div>        
                     </div>
                     
                     <div class="slideTeam zaid">
-                        <p style={{color: 'white', marginTop: '320px'}}>Zaid Akram</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Zaid Akram</p>  
+                        </div>
+                   </div>
+
+
+                   <div class="slideTeam adithya" >
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Adithya Suresh</p>
+                        </div>                 
                     </div>
 
+                    <div class="slideTeam anam">
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Anam Ahmed</p>  
+                        </div>               
+                    </div>
 
+                    <div class="slideTeam bilal">
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Bilal Ahmad</p>  
+    
+                        </div>
+                    </div>
 
-
+                    <div class="slideTeam indrajith">
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Indrajith Kuttiyil</p>
+                            </div>  
+                    </div>
+                    
+                    <div class="slideTeam leroy" >
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Leroy</p>
+            
+                        </div>        
+                    </div>
+                    
+                    <div class="slideTeam zaid">
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Zaid Akram</p>  
+     
+                        </div>               
+                    </div>
 
                     <div class="slideTeam adithya" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Adithya Suresh</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Adithya Suresh</p>
+                        </div>                 
                     </div>
 
                     <div class="slideTeam anam">
-                        <p style={{color: 'white', marginTop: '320px'}}>Anam Ahmed</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Anam Ahmed</p>          
+                        </div>
                     </div>
 
                     <div class="slideTeam bilal">
-                        <p style={{color: 'white', marginTop: '320px'}}>Bilal Ahmad</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Bilal Ahmad</p>  
+                        </div>                
                     </div>
 
                     <div class="slideTeam indrajith">
-                        <p style={{color: 'white', marginTop: '320px'}}>Indrajith Kuttiyil</p>  
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Indrajith Kuttiyil</p>
+                        </div>  
                     </div>
                     
                     <div class="slideTeam leroy" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Leroy</p>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Leroy</p>
+                        </div>        
                     </div>
                     
                     <div class="slideTeam zaid">
-                        <p style={{color: 'white', marginTop: '320px'}}>Zaid Akram</p>  
-                    </div>
+                        <div style={{border: '0.5px solid grey', width: '100%', background: 'white', height: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <p style={{color: 'black', paddingTop: '13px'}}>Zaid Akram</p>  
+                        </div>
+                   </div>
 
-                    <div class="slideTeam adithya" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Adithya Suresh</p>
-                    </div>
 
-                    <div class="slideTeam anam">
-                        <p style={{color: 'white', marginTop: '320px'}}>Anam Ahmed</p>  
-                    </div>
 
-                    <div class="slideTeam bilal">
-                        <p style={{color: 'white', marginTop: '320px'}}>Bilal Ahmad</p>  
-                    </div>
 
-                    <div class="slideTeam indrajith">
-                        <p style={{color: 'white', marginTop: '320px'}}>Indrajith Kuttiyil</p>  
-                    </div>
-                    
-                    <div class="slideTeam leroy" >
-                        <p style={{color: 'white', marginTop: '320px'}}>Leroy</p>
-                    </div>
-                    
-                    <div class="slideTeam zaid">
-                        <p style={{color: 'white', marginTop: '320px'}}>Zaid Akram</p>  
-                    </div>
 
                 </div>
             </div>

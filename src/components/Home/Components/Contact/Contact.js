@@ -1,14 +1,20 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
-// import EmailIcon from '@mui/icons-material/Email';
-// import Mobile from './../../../1_Assets/Images/Contact/makesvg.svg';
 import TextAnim from '../TextAnim.jsx';
 
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+
 const Contact = () => { 
+    // GOOGLE MAPS START 
+    const mapContainerStyle = {
+        width: '400px',
+        height: '400px',
+      };
+    
+      const center = {
+        lat: 24.967260, // Default latitude
+        lng: 55.194097, // Default longitude
+      };
+    //   GOOGLE MAPS END
 
     function contact (){
         const Name = document.getElementById('name').value
@@ -75,8 +81,8 @@ const Contact = () => {
     
 
     return (
-        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px'}}>
-            <div style={{height: '90%', width: '90%', backgroundColor: 'white', marginTop: '-20px', display: 'flex'}}>
+        <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '100px'}}>
+            <div style={{height: '90%', width: '90%', backgroundColor: 'white',display: 'flex'}}>
 
                 <div className='HideContactImg'>
                     <div className='HideContactImg2' style={{height: '100%', width: '100%', opacity: '0.4'}}>
@@ -157,17 +163,35 @@ const Contact = () => {
                             </div>
 
 
-                            <div class="hover-effect4 ContactPackSocials">
-                                <ul>
-                                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Youtube"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a href="#." style={{display: 'flex', justifyContent: 'center', alignItems: 'center', textDecoration: 'none'}} title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
-                                </ul>
-                            </div>
+                            {/* <div class="hover-effect4">
+                                <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
+                                    <GoogleMap
+                                        mapContainerStyle={mapContainerStyle}
+                                        center={center}
+                                        zoom={10} // Adjust the initial zoom level as needed
+                                    >
+                                        <Marker
+                                        position={center}
+                                        />
+                                    </GoogleMap>
+                                </LoadScript>
+                            </div> */}
                         </div>
                         }  />
+
+<div class="hover-effect4">
+                                <LoadScript googleMapsApiKey="AIzaSyCiN_ddGa10P6ri5gS4K3wU8uXHsoRNIbM">
+                                    <GoogleMap
+                                        mapContainerStyle={mapContainerStyle}
+                                        center={center}
+                                        zoom={10} // Adjust the initial zoom level as needed
+                                    >
+                                        <Marker
+                                        position={center}
+                                        />
+                                    </GoogleMap>
+                                </LoadScript>
+                            </div>
                        
 
                         
