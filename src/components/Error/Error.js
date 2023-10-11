@@ -2,7 +2,7 @@
 import React from 'react';
 // import { NavLink } from 'react-router-dom';
 // import thhwhite from './../1_Assets/Images/thhwhite.png';
-import './boom.scss'
+// import './boom.scss'
 import { NavLink } from 'react-router-dom';
 // import './button.css'
 

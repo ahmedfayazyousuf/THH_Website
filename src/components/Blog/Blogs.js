@@ -15,49 +15,49 @@ useEffect(()=>{
 
       return(
         <Blog Title="Coachella 2023: Exciting Visuals, But Where’s the Tech-citement?" Author="The Housemates" Date="May 26, 2023" Body={<div style={{margin: '5px 0'}}>
-  <div class="mkdf-post-text-main">
-    <section class="wpb-content-wrapper">
-      <div class="vc_row wpb_row vc_row-fluid">
-        <div class="wpb_column vc_column_container vc_col-sm-12">
-          <div class="vc_column-inner">
-            <div class="wpb_wrapper">
-              <div class="wpb_text_column wpb_content_element ">
-                <div class="wpb_wrapper">
-                  <p><strong>The Epicenter of Glitter, Music, and Fashion</strong></p>
-                  <p>Coachella 2023 &ndash; the epicenter of glitter, music, and fashion. With thousands of influencers and music enthusiasts flocking to the desert, there was no shortage of Instagram-worthy moments. From flower walls to neon signs, it was a veritable carnival of visual delights. The festival of all festivals was a showstopper with stunning art installations, breathtaking performances, and of course, the experimental activations that had us all excited. But let&rsquo;s be honest, did the experiential activations live up to the excitement?</p>
-                  <p><strong>Memorable Activations</strong></p>
-                  <p><strong>Neutrogena: The Hero We Needed</strong></p>
-                  <p>First up, Neutrogena. The skincare brand not only had their usual influencer campaign, but they also put on the&nbsp;<strong>Skin Vitals Experience</strong>. Inside the space, attendees were able to walk-through and learn more about their skin, access their skin vitals, and try some of the products. And in addition to that, they had sunscreen stations set up around the festival for attendees to protect against UV rays. Honestly, Neutrogena was the hero we needed in a sea of sunburnt attendees.</p>
-                  <p><strong>Adidas x Bad Bunny: Sneaker Sensation</strong></p>
-                  <p>Next, Adidas teamed up with Bad Bunny for the&nbsp;<strong>Adidas Campus Experience</strong>, an on-site, cube-shaped pop-up that celebrated the pair&rsquo;s latest sneaker release. The space&rsquo;s eye-catching exterior boasted 50,000 live florals in 60 different varietals. On one side, Bad Bunny&rsquo;s signature logo made from steel and pine formed a larger-than-life archway entrance. On the other side of the cube was the Adidas logo, which marked a shoppable experience. Inside, a zen garden-inspired space was blanketed in wood tones and Spanish moss. In a fun touch, a floral chandelier included hanging sneakers. It was definitely a sight to see, but we couldn&rsquo;t help but wonder how many of those shoes actually sold.</p>
-                  <p><strong>B&Eacute;IS x Wanderlust Creamery: Beating the Heat</strong></p>
-                  <p>But the activation that had our mouths watering was from Shay Mitchell&rsquo;s travel accessories brand B&Eacute;IS. In honor of their new&nbsp;<strong>Sherbert Collection</strong>, they teamed up with Wanderlust Creamery to serve limited-edition ice cream out of a colorful on-site ice cream truck. And in a fun touch, products from the Sherbert Collection were displayed on the side of the truck. It was the perfect way to beat the heat while also checking out some stylish travel gear.</p>
-                  <p><strong>The Missing Ingredient: Technology</strong></p>
-                  <p>But, as much as we loved these activations, there was something missing from the experience. In a world where technology plays such a major role, it was surprising that more brands didn&rsquo;t incorporate it into their activations. Sure, the activations were pretty, but they could have been so much more. For example, Aperol could have used misted spirits to create a sensory experience that would transport attendees to the canals of Venice. Casetify could have incorporated a mosaic screen using old phones and phone cases, creating a cool and interactive installation. The possibilities are endless, and it&rsquo;s a missed opportunity for brands who want to make a lasting impression.</p>
-                  <p><strong>Final Thoughts</strong></p>
-                  <p>It&rsquo;s safe to say that some brands like Playboy and Hyatt Hotel could have stepped up their game, but the event as a whole lacked a strong technological backup. All in all, Coachella 2023 was a visual feast. From the music to the activations, it was an unforgettable experience. But, as we move forward, we hope to see more brands incorporating technology into their activations, creating even more immersive and unforgettable experiences.</p>
-                  <p>Because, let&rsquo;s face it, pretty isn&rsquo;t always enough. We want to be wowed, and we know that these brands have the creativity and resources to make it happen. So, until next year, let&rsquo;s see what Coachella 2024 has in store for us. We&rsquo;ll be waiting with bated breath, hoping for an even more unforgettable experience filled with innovative technology and immersive activations that truly transport us to new worlds.</p>
-                  <p><strong><br />Frequently Asked Questions</strong></p>
-                  <p><strong>Q1: What were some of the standout experiential activations at Coachella 2023?</strong></p>
-                  <p>A1: Some of the standout activations included Neutrogena&rsquo;s Skin Vitals Experience, the Adidas x Bad Bunny Campus Experience, and the B&Eacute;IS x Wanderlust Creamery collaboration for the Sherbert Collection.</p>
-                  <p><strong>Q2: How could brands have incorporated technology into their activations?</strong></p>
-                  <p>A2: Brands could have used technology to create more immersive and interactive experiences. For example, Aperol could have used misted spirits for a sensory experience, and Casetify could have created a mosaic screen using old phones and phone cases.</p>
-                  <p><strong>Q3: Which brands could have stepped up their game at Coachella 2023?</strong></p>
-                  <p>A3: Some brands that could have improved their activations include Playboy and Hyatt Hotel. These brands lacked strong technological components in their activations, which could have made them more engaging and memorable.</p>
-                  <p><strong>Q4: What can we expect from Coachella 2024?</strong></p>
-                  <p>A4: While we can&rsquo;t predict the specifics, we hope to see more brands incorporating technology into their activations at Coachella 2024. This would create more immersive and unforgettable experiences for attendees.</p>
-                  <p><strong>Q5: Why is it important for brands to create engaging and immersive activations at events like Coachella?</strong></p>
-                  <p>A5: Engaging and immersive activations help brands make a lasting impression on attendees, allowing them to connect with their target audience in a unique and memorable way. This can lead to increased brand awareness, loyalty, and ultimately, sales.</p>
+          <div class="mkdf-post-text-main">
+            <section class="wpb-content-wrapper">
+              <div class="vc_row wpb_row vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                  <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                      <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper">
+                          <p><strong>The Epicenter of Glitter, Music, and Fashion</strong></p>
+                          <p>Coachella 2023 &ndash; the epicenter of glitter, music, and fashion. With thousands of influencers and music enthusiasts flocking to the desert, there was no shortage of Instagram-worthy moments. From flower walls to neon signs, it was a veritable carnival of visual delights. The festival of all festivals was a showstopper with stunning art installations, breathtaking performances, and of course, the experimental activations that had us all excited. But let&rsquo;s be honest, did the experiential activations live up to the excitement?</p>
+                          <p><strong>Memorable Activations</strong></p>
+                          <p><strong>Neutrogena: The Hero We Needed</strong></p>
+                          <p>First up, Neutrogena. The skincare brand not only had their usual influencer campaign, but they also put on the&nbsp;<strong>Skin Vitals Experience</strong>. Inside the space, attendees were able to walk-through and learn more about their skin, access their skin vitals, and try some of the products. And in addition to that, they had sunscreen stations set up around the festival for attendees to protect against UV rays. Honestly, Neutrogena was the hero we needed in a sea of sunburnt attendees.</p>
+                          <p><strong>Adidas x Bad Bunny: Sneaker Sensation</strong></p>
+                          <p>Next, Adidas teamed up with Bad Bunny for the&nbsp;<strong>Adidas Campus Experience</strong>, an on-site, cube-shaped pop-up that celebrated the pair&rsquo;s latest sneaker release. The space&rsquo;s eye-catching exterior boasted 50,000 live florals in 60 different varietals. On one side, Bad Bunny&rsquo;s signature logo made from steel and pine formed a larger-than-life archway entrance. On the other side of the cube was the Adidas logo, which marked a shoppable experience. Inside, a zen garden-inspired space was blanketed in wood tones and Spanish moss. In a fun touch, a floral chandelier included hanging sneakers. It was definitely a sight to see, but we couldn&rsquo;t help but wonder how many of those shoes actually sold.</p>
+                          <p><strong>B&Eacute;IS x Wanderlust Creamery: Beating the Heat</strong></p>
+                          <p>But the activation that had our mouths watering was from Shay Mitchell&rsquo;s travel accessories brand B&Eacute;IS. In honor of their new&nbsp;<strong>Sherbert Collection</strong>, they teamed up with Wanderlust Creamery to serve limited-edition ice cream out of a colorful on-site ice cream truck. And in a fun touch, products from the Sherbert Collection were displayed on the side of the truck. It was the perfect way to beat the heat while also checking out some stylish travel gear.</p>
+                          <p><strong>The Missing Ingredient: Technology</strong></p>
+                          <p>But, as much as we loved these activations, there was something missing from the experience. In a world where technology plays such a major role, it was surprising that more brands didn&rsquo;t incorporate it into their activations. Sure, the activations were pretty, but they could have been so much more. For example, Aperol could have used misted spirits to create a sensory experience that would transport attendees to the canals of Venice. Casetify could have incorporated a mosaic screen using old phones and phone cases, creating a cool and interactive installation. The possibilities are endless, and it&rsquo;s a missed opportunity for brands who want to make a lasting impression.</p>
+                          <p><strong>Final Thoughts</strong></p>
+                          <p>It&rsquo;s safe to say that some brands like Playboy and Hyatt Hotel could have stepped up their game, but the event as a whole lacked a strong technological backup. All in all, Coachella 2023 was a visual feast. From the music to the activations, it was an unforgettable experience. But, as we move forward, we hope to see more brands incorporating technology into their activations, creating even more immersive and unforgettable experiences.</p>
+                          <p>Because, let&rsquo;s face it, pretty isn&rsquo;t always enough. We want to be wowed, and we know that these brands have the creativity and resources to make it happen. So, until next year, let&rsquo;s see what Coachella 2024 has in store for us. We&rsquo;ll be waiting with bated breath, hoping for an even more unforgettable experience filled with innovative technology and immersive activations that truly transport us to new worlds.</p>
+                          <p><strong><br />Frequently Asked Questions</strong></p>
+                          <p><strong>Q1: What were some of the standout experiential activations at Coachella 2023?</strong></p>
+                          <p>A1: Some of the standout activations included Neutrogena&rsquo;s Skin Vitals Experience, the Adidas x Bad Bunny Campus Experience, and the B&Eacute;IS x Wanderlust Creamery collaboration for the Sherbert Collection.</p>
+                          <p><strong>Q2: How could brands have incorporated technology into their activations?</strong></p>
+                          <p>A2: Brands could have used technology to create more immersive and interactive experiences. For example, Aperol could have used misted spirits for a sensory experience, and Casetify could have created a mosaic screen using old phones and phone cases.</p>
+                          <p><strong>Q3: Which brands could have stepped up their game at Coachella 2023?</strong></p>
+                          <p>A3: Some brands that could have improved their activations include Playboy and Hyatt Hotel. These brands lacked strong technological components in their activations, which could have made them more engaging and memorable.</p>
+                          <p><strong>Q4: What can we expect from Coachella 2024?</strong></p>
+                          <p>A4: While we can&rsquo;t predict the specifics, we hope to see more brands incorporating technology into their activations at Coachella 2024. This would create more immersive and unforgettable experiences for attendees.</p>
+                          <p><strong>Q5: Why is it important for brands to create engaging and immersive activations at events like Coachella?</strong></p>
+                          <p>A5: Engaging and immersive activations help brands make a lasting impression on attendees, allowing them to connect with their target audience in a unique and memorable way. This can lead to increased brand awareness, loyalty, and ultimately, sales.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div class="mkdf-post-info">
-    <div class="mkdf-post-info-left">&nbsp;</div>
+        <div class="mkdf-post-info">
+      <div class="mkdf-post-info-left">&nbsp;</div>
     <div class="mkdf-post-info-right">&nbsp;</div>
   </div>
 </div>} />
