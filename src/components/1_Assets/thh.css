@@ -264,6 +264,8 @@ transform: translateX(calc(-80px * 5));
 *::after {
 margin: 0;
 padding: 0;
+padding-top: 4px;
+padding-bottom: 4px;
 box-sizing: border-box;
 }
 
@@ -272,7 +274,7 @@ column-count: 4;
 --webkit-column-count: 4;
 --moz-column-count: 4;
 gap: 1rem;
-padding: 4rem;
+padding: 2rem;
 }
 
 .image img {
@@ -562,7 +564,7 @@ margin-top: -10px;
   width: 30%;
   margin-right: 10px;
   margin-top: 10px;
-  background: red;
+  /* background: red; */
   background-image: url('./Images/Contact/Maps.png');
   background-size:cover;
   background-repeat: noRepeat;

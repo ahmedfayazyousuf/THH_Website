@@ -29,7 +29,7 @@ const BlogGallery = () => {
 
         elements.forEach((element) => {
        
-            element.style.display = 'initial'
+            element.style.display = 'initial' 
            
           });
 
@@ -43,7 +43,7 @@ const BlogGallery = () => {
             <div style={{height: '100%', width: '100vw', marginTop: '-20px', display: 'flex',flexDirection:'column'}}>
 
 
-            <section className="gallery" style={{background: 'black', overflowY: 'scroll'}}>
+            <section className="gallery" style={{background: 'black', overflowY: 'scroll', width: '100vw'}}>
                 <div className="image">
                     <img onClick={()=> navigate("/blogs/1")} src={coachella} alt="img" />
                 </div>
@@ -53,7 +53,7 @@ const BlogGallery = () => {
                 <div className="image">
                     <img onClick={()=> navigate("/blogs/2")} src={contactless} alt="img" />
                 </div>
-
+ 
   
                 <div className="image">
                     <img onClick={()=> navigate("/blogs/4")} src={jobs} alt="img" />

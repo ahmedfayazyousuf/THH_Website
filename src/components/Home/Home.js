@@ -56,7 +56,7 @@ const Home = () => {
                 <AboutUs />
             </div>
 
-            <div style={{background: 'RED', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{background: 'black', height: '100%', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <FireSection />
             </div>
 
