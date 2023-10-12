@@ -81,7 +81,7 @@ const Contact = () => {
 
     return (
         <div style={{height: '100vh', width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '60px', marginBottom: '100px'}}>
-            <div style={{height: '90%', width: '90%', backgroundColor: 'white',display: 'flex'}}>
+            <div style={{height: '90%', width: '90%', backgroundColor: 'black',display: 'flex'}}>
 
                 <div className='HideContactImg'>
                     <div className='HideContactImg2' style={{height: '100%', width: '100%', opacity: '0.4'}}>
