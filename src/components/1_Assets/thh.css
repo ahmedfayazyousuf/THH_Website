@@ -268,8 +268,8 @@ transform: translateX(calc(-80px * 5));
 *::after {
 margin: 0;
 padding: 0;
-padding-top: 4px;
-padding-bottom: 4px;
+/* padding-top: 4px;
+padding-bottom: 4px; */
 box-sizing: border-box;
 }
 

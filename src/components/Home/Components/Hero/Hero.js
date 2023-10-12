@@ -85,7 +85,7 @@ export default function Hero(){
     };
 
     return(
-        <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative'}}>
+        <div style={{background: 'grey', height: '100vh', width: '100vw', display:'flex', justifyContent: 'center', alignItems: 'center',position:'relative', padding: '0', margin: '0'}}>
 
 
             <div className="cursor" style={{transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`, zIndex: '1000000000000000000000000000',width: isHovering ? '60px' : '30px',height: isHovering ? '60px' : '30px', transition: isHovering ? 'width 0.5s, height 0.5s' : 'width 0.5s, height 0.5s'}} />
