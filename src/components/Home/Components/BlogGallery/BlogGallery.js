@@ -23,7 +23,7 @@ const BlogGallery = () => {
     const navigate = useNavigate();
 
     const [batch, setBatch] = useState(1)
-
+    // eslint-disable-next-line
     function seeMore(){
         const elements = document.querySelectorAll(`.batch${batch}`);
 
